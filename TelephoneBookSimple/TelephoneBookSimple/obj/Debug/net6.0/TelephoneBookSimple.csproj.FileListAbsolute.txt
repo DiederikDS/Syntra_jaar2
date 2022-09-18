@@ -1,0 +1,15 @@
+C:\Users\Diederik\Desktop\C#_Jaar2\Oefeningen\TelephoneBookSimple\TelephoneBookSimple\bin\Debug\net6.0\TelephoneBookSimple.exe
+C:\Users\Diederik\Desktop\C#_Jaar2\Oefeningen\TelephoneBookSimple\TelephoneBookSimple\bin\Debug\net6.0\TelephoneBookSimple.deps.json
+C:\Users\Diederik\Desktop\C#_Jaar2\Oefeningen\TelephoneBookSimple\TelephoneBookSimple\bin\Debug\net6.0\TelephoneBookSimple.runtimeconfig.json
+C:\Users\Diederik\Desktop\C#_Jaar2\Oefeningen\TelephoneBookSimple\TelephoneBookSimple\bin\Debug\net6.0\TelephoneBookSimple.dll
+C:\Users\Diederik\Desktop\C#_Jaar2\Oefeningen\TelephoneBookSimple\TelephoneBookSimple\bin\Debug\net6.0\TelephoneBookSimple.pdb
+C:\Users\Diederik\Desktop\C#_Jaar2\Oefeningen\TelephoneBookSimple\TelephoneBookSimple\obj\Debug\net6.0\TelephoneBookSimple.csproj.AssemblyReference.cache
+C:\Users\Diederik\Desktop\C#_Jaar2\Oefeningen\TelephoneBookSimple\TelephoneBookSimple\obj\Debug\net6.0\TelephoneBookSimple.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diederik\Desktop\C#_Jaar2\Oefeningen\TelephoneBookSimple\TelephoneBookSimple\obj\Debug\net6.0\TelephoneBookSimple.AssemblyInfoInputs.cache
+C:\Users\Diederik\Desktop\C#_Jaar2\Oefeningen\TelephoneBookSimple\TelephoneBookSimple\obj\Debug\net6.0\TelephoneBookSimple.AssemblyInfo.cs
+C:\Users\Diederik\Desktop\C#_Jaar2\Oefeningen\TelephoneBookSimple\TelephoneBookSimple\obj\Debug\net6.0\TelephoneBookSimple.csproj.CoreCompileInputs.cache
+C:\Users\Diederik\Desktop\C#_Jaar2\Oefeningen\TelephoneBookSimple\TelephoneBookSimple\obj\Debug\net6.0\TelephoneBookSimple.dll
+C:\Users\Diederik\Desktop\C#_Jaar2\Oefeningen\TelephoneBookSimple\TelephoneBookSimple\obj\Debug\net6.0\refint\TelephoneBookSimple.dll
+C:\Users\Diederik\Desktop\C#_Jaar2\Oefeningen\TelephoneBookSimple\TelephoneBookSimple\obj\Debug\net6.0\TelephoneBookSimple.pdb
+C:\Users\Diederik\Desktop\C#_Jaar2\Oefeningen\TelephoneBookSimple\TelephoneBookSimple\obj\Debug\net6.0\TelephoneBookSimple.genruntimeconfig.cache
+C:\Users\Diederik\Desktop\C#_Jaar2\Oefeningen\TelephoneBookSimple\TelephoneBookSimple\obj\Debug\net6.0\ref\TelephoneBookSimple.dll
