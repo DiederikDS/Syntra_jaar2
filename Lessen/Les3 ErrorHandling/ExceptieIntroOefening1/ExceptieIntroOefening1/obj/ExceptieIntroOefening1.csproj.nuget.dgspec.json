@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\diede\\OneDrive\\Bureaublad\\Syntra_jaar2\\TelephoneBookSimple\\TelephoneBookSimple\\TelephoneBookSimple.csproj": {}
+    "C:\\Users\\diede\\OneDrive\\Bureaublad\\Syntra_jaar2\\Lessen\\Les3 ErrorHandling\\ExceptieIntroOefening1\\ExceptieIntroOefening1\\ExceptieIntroOefening1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\diede\\OneDrive\\Bureaublad\\Syntra_jaar2\\TelephoneBookSimple\\TelephoneBookSimple\\TelephoneBookSimple.csproj": {
+    "C:\\Users\\diede\\OneDrive\\Bureaublad\\Syntra_jaar2\\Lessen\\Les3 ErrorHandling\\ExceptieIntroOefening1\\ExceptieIntroOefening1\\ExceptieIntroOefening1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diede\\OneDrive\\Bureaublad\\Syntra_jaar2\\TelephoneBookSimple\\TelephoneBookSimple\\TelephoneBookSimple.csproj",
-        "projectName": "TelephoneBookSimple",
-        "projectPath": "C:\\Users\\diede\\OneDrive\\Bureaublad\\Syntra_jaar2\\TelephoneBookSimple\\TelephoneBookSimple\\TelephoneBookSimple.csproj",
+        "projectUniqueName": "C:\\Users\\diede\\OneDrive\\Bureaublad\\Syntra_jaar2\\Lessen\\Les3 ErrorHandling\\ExceptieIntroOefening1\\ExceptieIntroOefening1\\ExceptieIntroOefening1.csproj",
+        "projectName": "ExceptieIntroOefening1",
+        "projectPath": "C:\\Users\\diede\\OneDrive\\Bureaublad\\Syntra_jaar2\\Lessen\\Les3 ErrorHandling\\ExceptieIntroOefening1\\ExceptieIntroOefening1\\ExceptieIntroOefening1.csproj",
         "packagesPath": "C:\\Users\\diede\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diede\\OneDrive\\Bureaublad\\Syntra_jaar2\\TelephoneBookSimple\\TelephoneBookSimple\\obj\\",
+        "outputPath": "C:\\Users\\diede\\OneDrive\\Bureaublad\\Syntra_jaar2\\Lessen\\Les3 ErrorHandling\\ExceptieIntroOefening1\\ExceptieIntroOefening1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\diede\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,15 @@
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les3 ErrorHandling\ExceptieIntroOefening1\ExceptieIntroOefening1\bin\Debug\net6.0\ExceptieIntroOefening1.exe
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les3 ErrorHandling\ExceptieIntroOefening1\ExceptieIntroOefening1\bin\Debug\net6.0\ExceptieIntroOefening1.deps.json
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les3 ErrorHandling\ExceptieIntroOefening1\ExceptieIntroOefening1\bin\Debug\net6.0\ExceptieIntroOefening1.runtimeconfig.json
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les3 ErrorHandling\ExceptieIntroOefening1\ExceptieIntroOefening1\bin\Debug\net6.0\ExceptieIntroOefening1.dll
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les3 ErrorHandling\ExceptieIntroOefening1\ExceptieIntroOefening1\bin\Debug\net6.0\ExceptieIntroOefening1.pdb
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les3 ErrorHandling\ExceptieIntroOefening1\ExceptieIntroOefening1\obj\Debug\net6.0\ExceptieIntroOefening1.csproj.AssemblyReference.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les3 ErrorHandling\ExceptieIntroOefening1\ExceptieIntroOefening1\obj\Debug\net6.0\ExceptieIntroOefening1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les3 ErrorHandling\ExceptieIntroOefening1\ExceptieIntroOefening1\obj\Debug\net6.0\ExceptieIntroOefening1.AssemblyInfoInputs.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les3 ErrorHandling\ExceptieIntroOefening1\ExceptieIntroOefening1\obj\Debug\net6.0\ExceptieIntroOefening1.AssemblyInfo.cs
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les3 ErrorHandling\ExceptieIntroOefening1\ExceptieIntroOefening1\obj\Debug\net6.0\ExceptieIntroOefening1.csproj.CoreCompileInputs.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les3 ErrorHandling\ExceptieIntroOefening1\ExceptieIntroOefening1\obj\Debug\net6.0\ExceptieIntroOefening1.dll
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les3 ErrorHandling\ExceptieIntroOefening1\ExceptieIntroOefening1\obj\Debug\net6.0\refint\ExceptieIntroOefening1.dll
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les3 ErrorHandling\ExceptieIntroOefening1\ExceptieIntroOefening1\obj\Debug\net6.0\ExceptieIntroOefening1.pdb
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les3 ErrorHandling\ExceptieIntroOefening1\ExceptieIntroOefening1\obj\Debug\net6.0\ExceptieIntroOefening1.genruntimeconfig.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les3 ErrorHandling\ExceptieIntroOefening1\ExceptieIntroOefening1\obj\Debug\net6.0\ref\ExceptieIntroOefening1.dll
