@@ -1,5 +1,6 @@
 ﻿using Oefening_House.Classes;
 using Oefening_House.Enums;
+using System.Linq;
 
 List<House> Houses = new List<House>()
 {
@@ -31,7 +32,6 @@ foreach (var item in HousesGrouped1)
 }
 
 Console.WriteLine("--------------------------------------------------------------------------------------------");
-
 //-------------------------------------------------------------------------------------------------------------------------------------------------------
 
 //var HousesFiltered = from House in Houses
@@ -45,6 +45,39 @@ foreach (var item in HousesFiltered)
 }
 
 Console.WriteLine("--------------------------------------------------------------------------------------------");
-
 //-------------------------------------------------------------------------------------------------------------------------------------------------------
 
+//var HousesGrouped2 = from house in Houses
+//                     group house by house.Type into housesGrouped
+//                     select housesGrouped.Key + ": " + housesGrouped.Count();
+
+var HousesGrouped2 = Houses.GroupBy(house => house.Type)
+                            .Select(housesGrouped => housesGrouped.Key + ": " + housesGrouped.Count());
+
+foreach (var item in HousesGrouped2)
+{
+    Console.WriteLine(item + "\n");
+}
+
+Console.WriteLine("--------------------------------------------------------------------------------------------");
+//-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//var HousesFiltered2 = from house in Houses
+//                      where house.Squaremeter >= 100
+//                      select house.Name;
+
+var HousesFiltered2 = Houses.Where(house => house.Squaremeter >= 100)
+                            .Select(House => House.Name);
+                            
+
+foreach (var item in HousesFiltered2)
+{
+    Console.WriteLine(item + "\n");
+}
+
+Console.WriteLine("--------------------------------------------------------------------------------------------");
+//-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+var HousesGrouped3 = from house in Houses
+                     where Houses.Aggregate(decimal, house.Price) > 50000
+                     select
