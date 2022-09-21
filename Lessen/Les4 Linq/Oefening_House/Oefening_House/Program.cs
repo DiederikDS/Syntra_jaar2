@@ -79,5 +79,4 @@ Console.WriteLine("-------------------------------------------------------------
 //-------------------------------------------------------------------------------------------------------------------------------------------------------
 
 var HousesGrouped3 = from house in Houses
-                     where Houses.Aggregate(decimal, house.Price) > 50000
-                     select
+                     group house by Houses.Aggregate(house.Price, (a, b) => a + b);
