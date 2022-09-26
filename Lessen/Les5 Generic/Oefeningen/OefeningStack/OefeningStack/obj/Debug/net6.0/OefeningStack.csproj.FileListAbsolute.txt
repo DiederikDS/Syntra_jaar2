@@ -1,0 +1,15 @@
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Oefeningen\OefeningStack\OefeningStack\bin\Debug\net6.0\OefeningStack.exe
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Oefeningen\OefeningStack\OefeningStack\bin\Debug\net6.0\OefeningStack.deps.json
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Oefeningen\OefeningStack\OefeningStack\bin\Debug\net6.0\OefeningStack.runtimeconfig.json
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Oefeningen\OefeningStack\OefeningStack\bin\Debug\net6.0\OefeningStack.dll
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Oefeningen\OefeningStack\OefeningStack\bin\Debug\net6.0\OefeningStack.pdb
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Oefeningen\OefeningStack\OefeningStack\obj\Debug\net6.0\OefeningStack.csproj.AssemblyReference.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Oefeningen\OefeningStack\OefeningStack\obj\Debug\net6.0\OefeningStack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Oefeningen\OefeningStack\OefeningStack\obj\Debug\net6.0\OefeningStack.AssemblyInfoInputs.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Oefeningen\OefeningStack\OefeningStack\obj\Debug\net6.0\OefeningStack.AssemblyInfo.cs
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Oefeningen\OefeningStack\OefeningStack\obj\Debug\net6.0\OefeningStack.csproj.CoreCompileInputs.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Oefeningen\OefeningStack\OefeningStack\obj\Debug\net6.0\OefeningStack.dll
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Oefeningen\OefeningStack\OefeningStack\obj\Debug\net6.0\refint\OefeningStack.dll
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Oefeningen\OefeningStack\OefeningStack\obj\Debug\net6.0\OefeningStack.pdb
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Oefeningen\OefeningStack\OefeningStack\obj\Debug\net6.0\OefeningStack.genruntimeconfig.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Oefeningen\OefeningStack\OefeningStack\obj\Debug\net6.0\ref\OefeningStack.dll

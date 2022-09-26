@@ -79,4 +79,4 @@ Console.WriteLine("-------------------------------------------------------------
 //-------------------------------------------------------------------------------------------------------------------------------------------------------
 
 var HousesGrouped3 = from house in Houses
-                     group house by Houses.Aggregate(house.Price, (a, b) => a + b);
+                     group house by (house.price / 50000) into housesgroup

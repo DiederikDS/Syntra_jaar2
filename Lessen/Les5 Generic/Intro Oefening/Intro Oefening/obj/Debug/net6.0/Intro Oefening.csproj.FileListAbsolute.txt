@@ -1,0 +1,15 @@
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Intro Oefening\Intro Oefening\bin\Debug\net6.0\Intro Oefening.exe
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Intro Oefening\Intro Oefening\bin\Debug\net6.0\Intro Oefening.deps.json
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Intro Oefening\Intro Oefening\bin\Debug\net6.0\Intro Oefening.runtimeconfig.json
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Intro Oefening\Intro Oefening\bin\Debug\net6.0\Intro Oefening.dll
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Intro Oefening\Intro Oefening\bin\Debug\net6.0\Intro Oefening.pdb
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Intro Oefening\Intro Oefening\obj\Debug\net6.0\Intro Oefening.csproj.AssemblyReference.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Intro Oefening\Intro Oefening\obj\Debug\net6.0\Intro Oefening.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Intro Oefening\Intro Oefening\obj\Debug\net6.0\Intro Oefening.AssemblyInfoInputs.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Intro Oefening\Intro Oefening\obj\Debug\net6.0\Intro Oefening.AssemblyInfo.cs
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Intro Oefening\Intro Oefening\obj\Debug\net6.0\Intro Oefening.csproj.CoreCompileInputs.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Intro Oefening\Intro Oefening\obj\Debug\net6.0\Intro Oefening.dll
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Intro Oefening\Intro Oefening\obj\Debug\net6.0\refint\Intro Oefening.dll
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Intro Oefening\Intro Oefening\obj\Debug\net6.0\Intro Oefening.pdb
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Intro Oefening\Intro Oefening\obj\Debug\net6.0\Intro Oefening.genruntimeconfig.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Lessen\Les5 Generic\Intro Oefening\Intro Oefening\obj\Debug\net6.0\ref\Intro Oefening.dll
