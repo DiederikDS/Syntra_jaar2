@@ -1,11 +1,11 @@
 ﻿using OefeningStack.Classes;
 
-MyStack<string> Stack = new MyStack<string>();
+MyStack<int> Stack = new MyStack<int>();
 
-Stack.Add("Generic");
-Stack.Add("Generic1");
-Stack.Add("Generic2");
-Stack.Add("Generic3");
+Stack.Add(0);
+Stack.Add(1);
+Stack.Add(2);
+Stack.Add(3);
 
 Console.WriteLine(Stack.Peek());
 

@@ -34,14 +34,21 @@ namespace OefeningStack.Classes
 
         public T Remove()
         {
-            var result = Peek();
-            T[] newArray = new T[Items.Length - 1];
-            for (int i = 0; i < newArray.Length; i++)
+            if (Items.Length == 0)
             {
-                newArray[i] = Items[i];
+                return default;
+            } else
+            {
+                var result = Peek();
+                T[] newArray = new T[Items.Length - 1];
+                for (int i = 0; i < newArray.Length; i++)
+                {
+                    newArray[i] = Items[i];
+                }
+                Items = newArray;
+                return result;
             }
-            Items = newArray;
-            return result;
+            
         }
 
     }
