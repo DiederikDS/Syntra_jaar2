@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Oefening1_Addition/1.0.0": {
+        "runtime": {
+          "Oefening1_Addition.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Oefening1_Addition/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
