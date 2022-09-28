@@ -52,8 +52,6 @@ namespace Oefening1_Addition
             {
                 TxtB_Result.Text = res.ToString();
             }
-
-            
         }
 
         private async void Button_Click(object sender, RoutedEventArgs e)
