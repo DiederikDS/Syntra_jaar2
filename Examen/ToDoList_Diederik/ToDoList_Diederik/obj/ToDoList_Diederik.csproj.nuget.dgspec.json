@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\diede\\OneDrive\\Bureaublad\\Syntra_jaar2\\Oefeningen\\EventHandlerTutorialYT\\EventHandlerTutorialYT\\EventHandlerTutorialYT.csproj": {}
+    "C:\\Users\\diede\\OneDrive\\Bureaublad\\Syntra_jaar2\\Examen\\ToDoList_Diederik\\ToDoList_Diederik\\ToDoList_Diederik.csproj": {}
   },
   "projects": {
-    "C:\\Users\\diede\\OneDrive\\Bureaublad\\Syntra_jaar2\\Oefeningen\\EventHandlerTutorialYT\\EventHandlerTutorialYT\\EventHandlerTutorialYT.csproj": {
+    "C:\\Users\\diede\\OneDrive\\Bureaublad\\Syntra_jaar2\\Examen\\ToDoList_Diederik\\ToDoList_Diederik\\ToDoList_Diederik.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diede\\OneDrive\\Bureaublad\\Syntra_jaar2\\Oefeningen\\EventHandlerTutorialYT\\EventHandlerTutorialYT\\EventHandlerTutorialYT.csproj",
-        "projectName": "EventHandlerTutorialYT",
-        "projectPath": "C:\\Users\\diede\\OneDrive\\Bureaublad\\Syntra_jaar2\\Oefeningen\\EventHandlerTutorialYT\\EventHandlerTutorialYT\\EventHandlerTutorialYT.csproj",
+        "projectUniqueName": "C:\\Users\\diede\\OneDrive\\Bureaublad\\Syntra_jaar2\\Examen\\ToDoList_Diederik\\ToDoList_Diederik\\ToDoList_Diederik.csproj",
+        "projectName": "ToDoList_Diederik",
+        "projectPath": "C:\\Users\\diede\\OneDrive\\Bureaublad\\Syntra_jaar2\\Examen\\ToDoList_Diederik\\ToDoList_Diederik\\ToDoList_Diederik.csproj",
         "packagesPath": "C:\\Users\\diede\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diede\\OneDrive\\Bureaublad\\Syntra_jaar2\\Oefeningen\\EventHandlerTutorialYT\\EventHandlerTutorialYT\\obj\\",
+        "outputPath": "C:\\Users\\diede\\OneDrive\\Bureaublad\\Syntra_jaar2\\Examen\\ToDoList_Diederik\\ToDoList_Diederik\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\diede\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net6.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
           "imports": [
             "net461",
             "net462",
@@ -52,6 +52,9 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
