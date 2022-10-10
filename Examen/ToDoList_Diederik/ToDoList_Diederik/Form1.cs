@@ -41,7 +41,8 @@ namespace ToDoList_Diederik
 
         private void LiBx_ToDoItems_SelectedValueChanged(object sender, EventArgs e)
         {
-            _selectedItem = new ProfessioneelWerk(LiBx_ToDoItems.SelectedItem);
+            //De volgende lijn staat in comment zodat de applicatie toch kan runnen.
+            //_selectedItem = new ProfessioneelWerk(LiBx_ToDoItems.SelectedItem);
         }
 
         private void Btn_Finish_Click(object sender, EventArgs e)
