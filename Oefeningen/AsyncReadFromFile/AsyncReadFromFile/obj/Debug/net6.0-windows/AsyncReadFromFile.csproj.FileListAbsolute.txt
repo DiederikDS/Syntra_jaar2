@@ -1,0 +1,17 @@
+C:\Users\Diederik\Desktop\Oefeningen\AsyncReadFromFile\AsyncReadFromFile\bin\Debug\net6.0-windows\AsyncReadFromFile.exe
+C:\Users\Diederik\Desktop\Oefeningen\AsyncReadFromFile\AsyncReadFromFile\bin\Debug\net6.0-windows\AsyncReadFromFile.deps.json
+C:\Users\Diederik\Desktop\Oefeningen\AsyncReadFromFile\AsyncReadFromFile\bin\Debug\net6.0-windows\AsyncReadFromFile.runtimeconfig.json
+C:\Users\Diederik\Desktop\Oefeningen\AsyncReadFromFile\AsyncReadFromFile\bin\Debug\net6.0-windows\AsyncReadFromFile.dll
+C:\Users\Diederik\Desktop\Oefeningen\AsyncReadFromFile\AsyncReadFromFile\bin\Debug\net6.0-windows\AsyncReadFromFile.pdb
+C:\Users\Diederik\Desktop\Oefeningen\AsyncReadFromFile\AsyncReadFromFile\obj\Debug\net6.0-windows\AsyncReadFromFile.csproj.AssemblyReference.cache
+C:\Users\Diederik\Desktop\Oefeningen\AsyncReadFromFile\AsyncReadFromFile\obj\Debug\net6.0-windows\AsyncReadFromFile.Form1.resources
+C:\Users\Diederik\Desktop\Oefeningen\AsyncReadFromFile\AsyncReadFromFile\obj\Debug\net6.0-windows\AsyncReadFromFile.csproj.GenerateResource.cache
+C:\Users\Diederik\Desktop\Oefeningen\AsyncReadFromFile\AsyncReadFromFile\obj\Debug\net6.0-windows\AsyncReadFromFile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diederik\Desktop\Oefeningen\AsyncReadFromFile\AsyncReadFromFile\obj\Debug\net6.0-windows\AsyncReadFromFile.AssemblyInfoInputs.cache
+C:\Users\Diederik\Desktop\Oefeningen\AsyncReadFromFile\AsyncReadFromFile\obj\Debug\net6.0-windows\AsyncReadFromFile.AssemblyInfo.cs
+C:\Users\Diederik\Desktop\Oefeningen\AsyncReadFromFile\AsyncReadFromFile\obj\Debug\net6.0-windows\AsyncReadFromFile.csproj.CoreCompileInputs.cache
+C:\Users\Diederik\Desktop\Oefeningen\AsyncReadFromFile\AsyncReadFromFile\obj\Debug\net6.0-windows\AsyncReadFromFile.dll
+C:\Users\Diederik\Desktop\Oefeningen\AsyncReadFromFile\AsyncReadFromFile\obj\Debug\net6.0-windows\refint\AsyncReadFromFile.dll
+C:\Users\Diederik\Desktop\Oefeningen\AsyncReadFromFile\AsyncReadFromFile\obj\Debug\net6.0-windows\AsyncReadFromFile.pdb
+C:\Users\Diederik\Desktop\Oefeningen\AsyncReadFromFile\AsyncReadFromFile\obj\Debug\net6.0-windows\AsyncReadFromFile.genruntimeconfig.cache
+C:\Users\Diederik\Desktop\Oefeningen\AsyncReadFromFile\AsyncReadFromFile\obj\Debug\net6.0-windows\ref\AsyncReadFromFile.dll

@@ -1,0 +1,15 @@
+C:\Users\Diederik\Desktop\Oefeningen\EventHandlerTutorialYT\EventHandlerTutorialYT\bin\Debug\net6.0\EventHandlerTutorialYT.exe
+C:\Users\Diederik\Desktop\Oefeningen\EventHandlerTutorialYT\EventHandlerTutorialYT\bin\Debug\net6.0\EventHandlerTutorialYT.deps.json
+C:\Users\Diederik\Desktop\Oefeningen\EventHandlerTutorialYT\EventHandlerTutorialYT\bin\Debug\net6.0\EventHandlerTutorialYT.runtimeconfig.json
+C:\Users\Diederik\Desktop\Oefeningen\EventHandlerTutorialYT\EventHandlerTutorialYT\bin\Debug\net6.0\EventHandlerTutorialYT.dll
+C:\Users\Diederik\Desktop\Oefeningen\EventHandlerTutorialYT\EventHandlerTutorialYT\bin\Debug\net6.0\EventHandlerTutorialYT.pdb
+C:\Users\Diederik\Desktop\Oefeningen\EventHandlerTutorialYT\EventHandlerTutorialYT\obj\Debug\net6.0\EventHandlerTutorialYT.csproj.AssemblyReference.cache
+C:\Users\Diederik\Desktop\Oefeningen\EventHandlerTutorialYT\EventHandlerTutorialYT\obj\Debug\net6.0\EventHandlerTutorialYT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diederik\Desktop\Oefeningen\EventHandlerTutorialYT\EventHandlerTutorialYT\obj\Debug\net6.0\EventHandlerTutorialYT.AssemblyInfoInputs.cache
+C:\Users\Diederik\Desktop\Oefeningen\EventHandlerTutorialYT\EventHandlerTutorialYT\obj\Debug\net6.0\EventHandlerTutorialYT.AssemblyInfo.cs
+C:\Users\Diederik\Desktop\Oefeningen\EventHandlerTutorialYT\EventHandlerTutorialYT\obj\Debug\net6.0\EventHandlerTutorialYT.csproj.CoreCompileInputs.cache
+C:\Users\Diederik\Desktop\Oefeningen\EventHandlerTutorialYT\EventHandlerTutorialYT\obj\Debug\net6.0\EventHandlerTutorialYT.dll
+C:\Users\Diederik\Desktop\Oefeningen\EventHandlerTutorialYT\EventHandlerTutorialYT\obj\Debug\net6.0\refint\EventHandlerTutorialYT.dll
+C:\Users\Diederik\Desktop\Oefeningen\EventHandlerTutorialYT\EventHandlerTutorialYT\obj\Debug\net6.0\EventHandlerTutorialYT.pdb
+C:\Users\Diederik\Desktop\Oefeningen\EventHandlerTutorialYT\EventHandlerTutorialYT\obj\Debug\net6.0\EventHandlerTutorialYT.genruntimeconfig.cache
+C:\Users\Diederik\Desktop\Oefeningen\EventHandlerTutorialYT\EventHandlerTutorialYT\obj\Debug\net6.0\ref\EventHandlerTutorialYT.dll
