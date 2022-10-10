@@ -16,3 +16,5 @@ C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Examen\ToDoList_Diederik\ToDoLis
 C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Examen\ToDoList_Diederik\ToDoList_Diederik\obj\Debug\net6.0-windows\ToDoList_Diederik.genruntimeconfig.cache
 C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Examen\ToDoList_Diederik\ToDoList_Diederik\obj\Debug\net6.0-windows\ref\ToDoList_Diederik.dll
 C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Examen\ToDoList_Diederik\ToDoList_Diederik\obj\Debug\net6.0-windows\ToDoList_Diederik.ToDo_Aanmaken.resources
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Examen\ToDoList_Diederik\ToDoList_Diederik\bin\Debug\net6.0-windows\EntityFramework.dll
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\Examen\ToDoList_Diederik\ToDoList_Diederik\obj\Debug\net6.0-windows\ToDoList_Diederik.csproj.CopyComplete

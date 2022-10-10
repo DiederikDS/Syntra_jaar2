@@ -14,6 +14,7 @@ namespace ToDoList_Diederik.Classes
         public string ExecutionerName { get; set; }
         public string Location { get; set; }
         public DateTime DateExecuted { get; set; }
+        public string Type { get; set; }
 
         public override string ToString()
         {

@@ -34,7 +34,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.Btn_ToDoAanmaken = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.Btn_ToDoImport = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
@@ -97,14 +97,15 @@
             this.button2.Text = "Geselecteerde ToDo afwerken";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // Btn_ToDoImport
             // 
-            this.button3.Location = new System.Drawing.Point(569, 135);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(219, 29);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "ToDo\'s importeren";
-            this.button3.UseVisualStyleBackColor = true;
+            this.Btn_ToDoImport.Location = new System.Drawing.Point(569, 135);
+            this.Btn_ToDoImport.Name = "Btn_ToDoImport";
+            this.Btn_ToDoImport.Size = new System.Drawing.Size(219, 29);
+            this.Btn_ToDoImport.TabIndex = 6;
+            this.Btn_ToDoImport.Text = "ToDo\'s importeren";
+            this.Btn_ToDoImport.UseVisualStyleBackColor = true;
+            this.Btn_ToDoImport.Click += new System.EventHandler(this.Btn_ToDoImport_Click);
             // 
             // button4
             // 
@@ -114,6 +115,7 @@
             this.button4.TabIndex = 7;
             this.button4.Text = "Groepeer per week";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -163,7 +165,7 @@
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.Btn_ToDoImport);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.Btn_ToDoAanmaken);
             this.Controls.Add(this.label3);
@@ -185,7 +187,7 @@
         private Label label3;
         private Button Btn_ToDoAanmaken;
         private Button button2;
-        private Button button3;
+        private Button Btn_ToDoImport;
         private Button button4;
         private Button button5;
         private Button button6;
