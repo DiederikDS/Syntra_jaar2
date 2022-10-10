@@ -1,5 +1,4 @@
 using ToDoList_Diederik.Classes;
-using System.Linq;
 
 namespace ToDoList_Diederik
 {
@@ -7,6 +6,7 @@ namespace ToDoList_Diederik
     {
         private ToDoItemList<ToDoItem> _items;
         public ToDoItemList<ToDoItem> FilteredList = new ToDoItemList<ToDoItem>();
+        private ProfessioneelWerk _selectedItem;
 
         public void AddCreatedItemToList(object? sender, ToDoCreatedArgs e)
         {
@@ -36,6 +36,17 @@ namespace ToDoList_Diederik
 
         private void Btn_Refresh_Click(object sender, EventArgs e)
         {
+            PopulateLiBx_ToDoItems();
+        }
+
+        private void LiBx_ToDoItems_SelectedValueChanged(object sender, EventArgs e)
+        {
+            _selectedItem = new ProfessioneelWerk(LiBx_ToDoItems.SelectedItem);
+        }
+
+        private void Btn_Finish_Click(object sender, EventArgs e)
+        {
+            _selectedItem.DateExecuted = DateTime.Now;
             PopulateLiBx_ToDoItems();
         }
 
@@ -80,9 +91,27 @@ namespace ToDoList_Diederik
             });
         }
 
+        //Linq:
+        //Per week het aantal todo's
         private void button4_Click(object sender, EventArgs e)
         {
-            FilteredList = _items.Where(e => e) 
+            FilteredList = (ToDoItemList<ToDoItem>)_items.TodoItems.GroupBy(e => (e.DueDate.Day/7)).Select(e => $"{e.Key} - {e.Key * 7} : {e.Count()} tasks");
+
         }
+
+        //Per executor
+        private void button5_Click(object sender, EventArgs e)
+        {
+            FilteredList = (ToDoItemList<ToDoItem>)_items.TodoItems.GroupBy(e => e.ExecutionerName).Select(e => $"{e.Key} : {e.Count()} tasks");
+        }
+
+        //Per uitgevoerde taak
+        private void button6_Click(object sender, EventArgs e)
+        {
+            FilteredList = (ToDoItemList<ToDoItem>)_items.TodoItems.Where(e => e.DateExecuted < DateTime.Now).Select(e => $"Date executed: {e.Name} {e.Description}");
+        }
+
+        //Alle taken die de komende 7 dagen moeten worden uitgevoerd: ‘Name, Description’
+
     }
 }

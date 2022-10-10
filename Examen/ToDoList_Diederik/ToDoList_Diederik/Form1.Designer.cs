@@ -33,7 +33,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.Btn_ToDoAanmaken = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.Btn_Finish = new System.Windows.Forms.Button();
             this.Btn_ToDoImport = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -50,6 +50,7 @@
             this.LiBx_ToDoItems.Name = "LiBx_ToDoItems";
             this.LiBx_ToDoItems.Size = new System.Drawing.Size(551, 404);
             this.LiBx_ToDoItems.TabIndex = 0;
+            this.LiBx_ToDoItems.SelectedValueChanged += new System.EventHandler(this.LiBx_ToDoItems_SelectedValueChanged);
             // 
             // label1
             // 
@@ -88,14 +89,15 @@
             this.Btn_ToDoAanmaken.UseVisualStyleBackColor = true;
             this.Btn_ToDoAanmaken.Click += new System.EventHandler(this.Btn_ToDoAanmaken_Click);
             // 
-            // button2
+            // Btn_Finish
             // 
-            this.button2.Location = new System.Drawing.Point(569, 100);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(219, 29);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Geselecteerde ToDo afwerken";
-            this.button2.UseVisualStyleBackColor = true;
+            this.Btn_Finish.Location = new System.Drawing.Point(569, 100);
+            this.Btn_Finish.Name = "Btn_Finish";
+            this.Btn_Finish.Size = new System.Drawing.Size(219, 29);
+            this.Btn_Finish.TabIndex = 5;
+            this.Btn_Finish.Text = "Geselecteerde ToDo afwerken";
+            this.Btn_Finish.UseVisualStyleBackColor = true;
+            this.Btn_Finish.Click += new System.EventHandler(this.Btn_Finish_Click);
             // 
             // Btn_ToDoImport
             // 
@@ -125,6 +127,7 @@
             this.button5.TabIndex = 8;
             this.button5.Text = "Groepeer per uitvoerder";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -134,6 +137,7 @@
             this.button6.TabIndex = 9;
             this.button6.Text = "Uitgevoerde ToDo\'s";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -166,7 +170,7 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.Btn_ToDoImport);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.Btn_Finish);
             this.Controls.Add(this.Btn_ToDoAanmaken);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -186,7 +190,7 @@
         private Label label2;
         private Label label3;
         private Button Btn_ToDoAanmaken;
-        private Button button2;
+        private Button Btn_Finish;
         private Button Btn_ToDoImport;
         private Button button4;
         private Button button5;
