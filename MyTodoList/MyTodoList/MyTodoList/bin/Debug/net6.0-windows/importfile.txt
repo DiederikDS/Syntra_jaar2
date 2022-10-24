@@ -1,0 +1,12 @@
+﻿taak1,omschrijving1,14/10/2022,Arne,Syntra
+taak2,omschrijving2,15/10/2022,Arne,Syntra
+taak3,omschrijving3,16/10/2022,Wim,Syntra
+taak4,omschrijving4,17/10/2022,Arne,Syntra
+taak5,omschrijving5,18/10/2022,Arne,Syntra
+taak6,omschrijving6,19/10/2022,Wim,Syntra
+taak7,omschrijving7,20/10/2022,Arne,Syntra
+taak8,omschrijving8,21/10/2022,Arne,Syntra
+taak9,omschrijving9,22/10/2022,Tine,Syntra
+taak10,omschrijving10,23/10/2022,Arne,Syntra
+taak11,omschrijving11,24/10/2022,Arne,Syntra
+taak12,omschrijving12,25/10/2022,Arne,Syntra
