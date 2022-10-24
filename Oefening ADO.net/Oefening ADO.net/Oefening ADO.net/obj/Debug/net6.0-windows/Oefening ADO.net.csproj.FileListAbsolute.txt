@@ -1,0 +1,41 @@
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\Oefening ADO.net.exe
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\Oefening ADO.net.deps.json
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\Oefening ADO.net.runtimeconfig.json
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\Oefening ADO.net.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\Oefening ADO.net.pdb
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\obj\Debug\net6.0-windows\Oefening ADO.net.csproj.AssemblyReference.cache
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\obj\Debug\net6.0-windows\Oefening_ADO.net.Form1.resources
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\obj\Debug\net6.0-windows\Oefening ADO.net.csproj.GenerateResource.cache
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\obj\Debug\net6.0-windows\Oefening ADO.net.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\obj\Debug\net6.0-windows\Oefening ADO.net.AssemblyInfoInputs.cache
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\obj\Debug\net6.0-windows\Oefening ADO.net.AssemblyInfo.cs
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\obj\Debug\net6.0-windows\Oefening ADO.net.csproj.CoreCompileInputs.cache
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\obj\Debug\net6.0-windows\Oefening ADO.net.csproj.CopyComplete
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\obj\Debug\net6.0-windows\Oefening ADO.net.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\obj\Debug\net6.0-windows\refint\Oefening ADO.net.dll
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\obj\Debug\net6.0-windows\Oefening ADO.net.pdb
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\obj\Debug\net6.0-windows\Oefening ADO.net.genruntimeconfig.cache
+C:\Users\kbecu\Documents\TestSource\Oefening ADO.net\Oefening ADO.net\obj\Debug\net6.0-windows\ref\Oefening ADO.net.dll
