@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kbecu\\Documents\\TestSource\\Oefening ADO.net\\Oefening ADO.net\\Oefening ADO.net.csproj": {}
+    "C:\\Users\\diede\\OneDrive\\Bureaublad\\Syntra_jaar2\\Oefening ADO.net\\Oefening ADO.net\\Oefening ADO.net\\Oefening ADO.net.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kbecu\\Documents\\TestSource\\Oefening ADO.net\\Oefening ADO.net\\Oefening ADO.net.csproj": {
+    "C:\\Users\\diede\\OneDrive\\Bureaublad\\Syntra_jaar2\\Oefening ADO.net\\Oefening ADO.net\\Oefening ADO.net\\Oefening ADO.net.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kbecu\\Documents\\TestSource\\Oefening ADO.net\\Oefening ADO.net\\Oefening ADO.net.csproj",
+        "projectUniqueName": "C:\\Users\\diede\\OneDrive\\Bureaublad\\Syntra_jaar2\\Oefening ADO.net\\Oefening ADO.net\\Oefening ADO.net\\Oefening ADO.net.csproj",
         "projectName": "Oefening ADO.net",
-        "projectPath": "C:\\Users\\kbecu\\Documents\\TestSource\\Oefening ADO.net\\Oefening ADO.net\\Oefening ADO.net.csproj",
-        "packagesPath": "C:\\Users\\kbecu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kbecu\\Documents\\TestSource\\Oefening ADO.net\\Oefening ADO.net\\obj\\",
+        "projectPath": "C:\\Users\\diede\\OneDrive\\Bureaublad\\Syntra_jaar2\\Oefening ADO.net\\Oefening ADO.net\\Oefening ADO.net\\Oefening ADO.net.csproj",
+        "packagesPath": "C:\\Users\\diede\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diede\\OneDrive\\Bureaublad\\Syntra_jaar2\\Oefening ADO.net\\Oefening ADO.net\\Oefening ADO.net\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kbecu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\diede\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows"
+          "net6.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -51,8 +51,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -64,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

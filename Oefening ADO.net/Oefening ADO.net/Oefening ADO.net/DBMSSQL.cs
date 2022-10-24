@@ -10,6 +10,8 @@ namespace Oefening_ADO.net
 {
     public class DBMSSQL
     {
+        //This is the data access layer
+
         private SqlConnection _Connection;
             
         public  DBMSSQL() {
@@ -20,9 +22,37 @@ namespace Oefening_ADO.net
         public string ConnectionString { get; set; }
 
         public bool Connect() {
+            //_Connection is een instantie van SqlConnection, dit erft van DbConnection, en hier wordt de ConnectionString gedefinieerd.
             _Connection.ConnectionString= ConnectionString;
             _Connection.Open();
-            return true;
+            if (_Connection.State == System.Data.ConnectionState.Open)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
+        }
+
+        public ConnState Status()
+        {
+            switch (_Connection.State)
+            {
+                case System.Data.ConnectionState.Open:
+                    return ConnState.IsOpen;
+                case System.Data.ConnectionState.Closed:
+                    return ConnState.IsClosed;
+                default:
+                    return ConnState.IsClosed;
+            }
+        }
+
+        public enum ConnState
+        {
+            IsOpen,
+            IsClosed
         }
 
         public void Close()
@@ -31,7 +61,7 @@ namespace Oefening_ADO.net
         }
 
         public void ExecuteSQL(string sql) {
-            _Connection = new SqlConnection(ConnectionString);
+            //_Connection = new SqlConnection(ConnectionString);
             Microsoft.Data.SqlClient.SqlCommand cmd = _Connection.CreateCommand();
             cmd.CommandText = sql;
             cmd.ExecuteNonQuery();
