@@ -154,6 +154,7 @@
             this.Btn_Create.TabIndex = 12;
             this.Btn_Create.Text = "Create";
             this.Btn_Create.UseVisualStyleBackColor = true;
+            this.Btn_Create.Click += new System.EventHandler(this.Btn_Create_Click);
             // 
             // richTextBox1
             // 

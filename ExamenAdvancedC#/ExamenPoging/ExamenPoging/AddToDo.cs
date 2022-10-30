@@ -21,5 +21,16 @@ namespace ExamenPoging
         {
             this.Close();
         }
+
+        private void Btn_Create_Click(object sender, EventArgs e)
+        {
+            if (CBB_Type.Text != null)
+            {
+                if (CBB_Type.Text == "Professional work")
+                {
+                    ProfessionalWork pwTodo = new ProfessionalWork(TxtB_Name.Text);
+                }
+            }
+        }
     }
 }
