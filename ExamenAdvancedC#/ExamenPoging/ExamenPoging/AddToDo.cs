@@ -16,5 +16,10 @@ namespace ExamenPoging
         {
             InitializeComponent();
         }
+
+        private void Btn_Cancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

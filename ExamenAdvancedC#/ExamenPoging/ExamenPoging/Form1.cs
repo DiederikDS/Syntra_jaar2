@@ -6,5 +6,11 @@ namespace ExamenPoging
         {
             InitializeComponent();
         }
+
+        private void Btn_CreateToDo_Click(object sender, EventArgs e)
+        {
+            AddToDo addToDo = new AddToDo();
+            addToDo.ShowDialog();
+        }
     }
 }
