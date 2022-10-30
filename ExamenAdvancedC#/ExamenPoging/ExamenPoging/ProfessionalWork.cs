@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExamenPoging
 {
-    internal class ProfessionalWork : ToDo<ProfessionalWork>
+    internal class ProfessionalWork : ToDo<T>
     {
         
     }
