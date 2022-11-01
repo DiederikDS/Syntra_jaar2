@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExamenPoging
 {
-    internal abstract class ToDo 
+    public abstract class ToDo 
     {
         public ToDo(string name, DateTime duedate)
         {

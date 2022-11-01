@@ -13,6 +13,7 @@ namespace ExamenPoging
         private void Btn_CreateToDo_Click(object sender, EventArgs e)
         {
             AddToDo addToDo = new AddToDo();
+            addToDo.OnToDoCreated += CreateToDo;
             addToDo.ShowDialog();
             PopulateListView();
         }
@@ -24,6 +25,13 @@ namespace ExamenPoging
             {
                 LV_ToDo.Items.Add(item.ToString());
             }
+        }
+
+        public void CreateToDo(object sender, ToDoItemEventArgs e)
+        {
+            items.AddTodo(e.todo);
+            Logger.Log("ToDo created");
+            PopulateListView();
         }
     }
 }

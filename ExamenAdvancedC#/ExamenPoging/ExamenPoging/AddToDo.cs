@@ -19,6 +19,9 @@ namespace ExamenPoging
             CBB_Type.Items.Add("Home work");
         }
 
+        public delegate void ToDoCreated(object sender, ToDoItemEventArgs e);
+        public event ToDoCreated OnToDoCreated;
+
         private void Btn_Cancel_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -31,10 +34,12 @@ namespace ExamenPoging
                 if (Convert.ToString(CBB_Type.SelectedItem)  == "Professional work")
                 {
                     ProfessionalWork pwTodo = new ProfessionalWork(TxtB_Name.Text, DTP_DueDate.Value) {ExecutorName = TxTB_Executor.Text, Description = RTB_Description.Text, Location = TxTB_Location.Text };
+                    OnToDoCreated.Invoke(this, new ToDoItemEventArgs(pwTodo));
                 }
                 else
                 {
                     HomeWork hwTodo = new HomeWork(TxtB_Name.Text, DTP_DueDate.Value) { ExecutorName = TxTB_Executor.Text, Description = RTB_Description.Text, Location = TxTB_Location.Text };
+                    OnToDoCreated.Invoke(this, new ToDoItemEventArgs(hwTodo));
                 }
             }
             else
@@ -50,10 +55,12 @@ namespace ExamenPoging
                 if (Convert.ToString(CBB_Type.SelectedItem) == "Professional work")
                 {
                     ProfessionalWork pwTodo = new ProfessionalWork(TxtB_Name.Text, DTP_DueDate.Value) { ExecutorName = TxTB_Executor.Text, Description = RTB_Description.Text, Location = TxTB_Location.Text };
+                    OnToDoCreated.Invoke(this, new ToDoItemEventArgs(pwTodo));
                 }
                 else
                 {
                     HomeWork hwTodo = new HomeWork(TxtB_Name.Text, DTP_DueDate.Value) { ExecutorName = TxTB_Executor.Text, Description = RTB_Description.Text, Location = TxTB_Location.Text };
+                    OnToDoCreated.Invoke(this, new ToDoItemEventArgs(hwTodo));
                 }
             }
             else
