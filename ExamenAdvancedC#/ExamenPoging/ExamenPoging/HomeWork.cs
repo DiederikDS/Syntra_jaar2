@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace ExamenPoging
 {
-    internal class HomeWork
+    internal class HomeWork : ToDo
     {
+        public HomeWork(string name, DateTime duedate)
+            :base(name,duedate)
+        {
+
+        }
     }
 }
