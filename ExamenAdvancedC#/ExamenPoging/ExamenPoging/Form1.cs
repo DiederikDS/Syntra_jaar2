@@ -33,5 +33,25 @@ namespace ExamenPoging
             Logger.Log("ToDo created");
             PopulateListView();
         }
+
+        private void Btn_ImportToDo_Click(object sender, EventArgs e)
+        {
+            string[] importfile = File.ReadAllLines(@"C:\Users\Diederik\Documents\GitHub\Syntra_jaar2\ExamenAdvancedC#\ExamenPoging\ExamenPoging\ImportFile.txt");
+            foreach(var item in importfile)
+            {
+                var split = item.Split(',');
+                HomeWork todo = new HomeWork();
+                todo.Name = split[0];
+                todo.Description = split[1];
+                todo.DueDate = Convert.ToDateTime(split[2]);
+                todo.ExecutorName = split[3];
+                todo.Location = split[4];
+                items.AddTodo(todo);
+            }
+            PopulateListView();
+            Logger.Log($"{importfile.Length} items imported");
+            
+            
+        }
     }
 }

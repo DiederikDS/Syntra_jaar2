@@ -8,10 +8,10 @@ namespace ExamenPoging
 {
     internal class HomeWork : ToDo
     {
-        public HomeWork(string name, DateTime duedate)
-            :base(name,duedate)
+        public HomeWork()
         {
 
         }
+
     }
 }

@@ -33,12 +33,12 @@ namespace ExamenPoging
             {
                 if (Convert.ToString(CBB_Type.SelectedItem)  == "Professional work")
                 {
-                    ProfessionalWork pwTodo = new ProfessionalWork(TxtB_Name.Text, DTP_DueDate.Value) {ExecutorName = TxTB_Executor.Text, Description = RTB_Description.Text, Location = TxTB_Location.Text };
+                    ProfessionalWork pwTodo = new ProfessionalWork() { Name = TxtB_Name.Text, DueDate = DTP_DueDate.Value, ExecutorName = TxTB_Executor.Text, Description = RTB_Description.Text, Location = TxTB_Location.Text };
                     OnToDoCreated.Invoke(this, new ToDoItemEventArgs(pwTodo));
                 }
                 else
                 {
-                    HomeWork hwTodo = new HomeWork(TxtB_Name.Text, DTP_DueDate.Value) { ExecutorName = TxTB_Executor.Text, Description = RTB_Description.Text, Location = TxTB_Location.Text };
+                    HomeWork hwTodo = new HomeWork() { Name = TxtB_Name.Text, DueDate = DTP_DueDate.Value, ExecutorName = TxTB_Executor.Text, Description = RTB_Description.Text, Location = TxTB_Location.Text };
                     OnToDoCreated.Invoke(this, new ToDoItemEventArgs(hwTodo));
                 }
             }
@@ -54,12 +54,12 @@ namespace ExamenPoging
             {
                 if (Convert.ToString(CBB_Type.SelectedItem) == "Professional work")
                 {
-                    ProfessionalWork pwTodo = new ProfessionalWork(TxtB_Name.Text, DTP_DueDate.Value) { ExecutorName = TxTB_Executor.Text, Description = RTB_Description.Text, Location = TxTB_Location.Text };
+                    ProfessionalWork pwTodo = new ProfessionalWork() {Name = TxtB_Name.Text, DueDate = DTP_DueDate.Value, ExecutorName = TxTB_Executor.Text, Description = RTB_Description.Text, Location = TxTB_Location.Text };
                     OnToDoCreated.Invoke(this, new ToDoItemEventArgs(pwTodo));
                 }
                 else
                 {
-                    HomeWork hwTodo = new HomeWork(TxtB_Name.Text, DTP_DueDate.Value) { ExecutorName = TxTB_Executor.Text, Description = RTB_Description.Text, Location = TxTB_Location.Text };
+                    HomeWork hwTodo = new HomeWork() { Name = TxtB_Name.Text, DueDate = DTP_DueDate.Value, ExecutorName = TxTB_Executor.Text, Description = RTB_Description.Text, Location = TxTB_Location.Text };
                     OnToDoCreated.Invoke(this, new ToDoItemEventArgs(hwTodo));
                 }
             }

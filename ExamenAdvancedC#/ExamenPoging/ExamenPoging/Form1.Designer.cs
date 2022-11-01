@@ -103,6 +103,7 @@
             this.Btn_ImportToDo.TabIndex = 6;
             this.Btn_ImportToDo.Text = "Import";
             this.Btn_ImportToDo.UseVisualStyleBackColor = true;
+            this.Btn_ImportToDo.Click += new System.EventHandler(this.Btn_ImportToDo_Click);
             // 
             // Btn_SortByWeek
             // 

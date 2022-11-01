@@ -8,10 +8,9 @@ namespace ExamenPoging
 {
     public abstract class ToDo 
     {
-        public ToDo(string name, DateTime duedate)
+        public ToDo()
         {
-            Name = name;
-            DueDate = duedate;
+            
         }
         
         public string Name { get; set; }
