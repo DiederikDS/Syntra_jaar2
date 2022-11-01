@@ -21,6 +21,11 @@ namespace ExamenPoging
         public string Location { get; set; }
         public DateTime DateExecuted { get; set; }
 
+        public override string ToString()
+        {
+            return $"{Name} - by {ExecutorName} - due {DueDate}";
+        }
+
 
 
     }

@@ -15,6 +15,8 @@ namespace ExamenPoging
         public AddToDo()
         {
             InitializeComponent();
+            CBB_Type.Items.Add("Professional work");
+            CBB_Type.Items.Add("Home work");
         }
 
         private void Btn_Cancel_Click(object sender, EventArgs e)
@@ -24,9 +26,9 @@ namespace ExamenPoging
 
         private void Btn_Create_Click(object sender, EventArgs e)
         {
-            if (CBB_Type.Text != null && TxtB_Name.Text != null && DTP_DueDate.Value != default)
+            if (CBB_Type.SelectedItem != null && TxtB_Name.Text != "")
             {
-                if (CBB_Type.Text == "Professional work")
+                if (Convert.ToString(CBB_Type.SelectedItem)  == "Professional work")
                 {
                     ProfessionalWork pwTodo = new ProfessionalWork(TxtB_Name.Text, DTP_DueDate.Value) {ExecutorName = TxTB_Executor.Text, Description = RTB_Description.Text, Location = TxTB_Location.Text };
                 }
@@ -37,8 +39,29 @@ namespace ExamenPoging
             }
             else
             {
-                MessageBox.Show("Type, Name and Duedate should be filled in");
+                MessageBox.Show("Type and Name should be filled in");
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (CBB_Type.SelectedItem != null && TxtB_Name.Text != "")
+            {
+                if (Convert.ToString(CBB_Type.SelectedItem) == "Professional work")
+                {
+                    ProfessionalWork pwTodo = new ProfessionalWork(TxtB_Name.Text, DTP_DueDate.Value) { ExecutorName = TxTB_Executor.Text, Description = RTB_Description.Text, Location = TxTB_Location.Text };
+                }
+                else
+                {
+                    HomeWork hwTodo = new HomeWork(TxtB_Name.Text, DTP_DueDate.Value) { ExecutorName = TxTB_Executor.Text, Description = RTB_Description.Text, Location = TxTB_Location.Text };
+                }
+            }
+            else
+            {
+                MessageBox.Show("Type and Name should be filled in");
+            }
+
+            this.Close();
         }
     }
 }

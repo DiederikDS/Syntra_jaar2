@@ -152,6 +152,7 @@
             this.button1.TabIndex = 11;
             this.button1.Text = "Create and close";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Btn_Create
             // 
