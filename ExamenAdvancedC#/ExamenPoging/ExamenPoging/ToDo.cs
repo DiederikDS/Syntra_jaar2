@@ -19,6 +19,7 @@ namespace ExamenPoging
         public string ExecutorName { get; set; }
         public string Location { get; set; }
         public DateTime DateExecuted { get; set; }
+        public bool IsFinished { get; set; }
 
         public override string ToString()
         {

@@ -94,6 +94,7 @@
             this.Btn_FinishSelToDo.TabIndex = 5;
             this.Btn_FinishSelToDo.Text = "Finish selected ToDo";
             this.Btn_FinishSelToDo.UseVisualStyleBackColor = true;
+            this.Btn_FinishSelToDo.Click += new System.EventHandler(this.Btn_FinishSelToDo_Click);
             // 
             // Btn_ImportToDo
             // 

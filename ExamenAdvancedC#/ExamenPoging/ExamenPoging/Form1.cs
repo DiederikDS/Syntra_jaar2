@@ -53,5 +53,20 @@ namespace ExamenPoging
             
             
         }
+
+        private void Btn_FinishSelToDo_Click(object sender, EventArgs e)
+        {
+            if (LV_ToDo.SelectedItems != null)
+            {
+                foreach(var item in LV_ToDo.SelectedItems)
+                {
+                    ToDo todo = (ToDo)item;
+                }
+            }
+        }
+
+        //Linq
+
+
     }
 }
