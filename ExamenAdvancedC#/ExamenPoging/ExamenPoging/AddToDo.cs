@@ -15,7 +15,12 @@ namespace ExamenPoging
         public AddToDo()
         {
             InitializeComponent();
+            CBB_Type.Items.Add("Professional work");
+            CBB_Type.Items.Add("Home work");
         }
+
+        public delegate void ToDoCreated(object sender, ToDoItemEventArgs e);
+        public event ToDoCreated OnToDoCreated;
 
         private void Btn_Cancel_Click(object sender, EventArgs e)
         {
@@ -24,13 +29,46 @@ namespace ExamenPoging
 
         private void Btn_Create_Click(object sender, EventArgs e)
         {
-            if (CBB_Type.Text != null)
+            if (CBB_Type.SelectedItem != null && TxtB_Name.Text != "")
             {
-                if (CBB_Type.Text == "Professional work")
+                if (Convert.ToString(CBB_Type.SelectedItem)  == "Professional work")
                 {
-                    ProfessionalWork pwTodo = new ProfessionalWork(TxtB_Name.Text);
+                    ProfessionalWork pwTodo = new ProfessionalWork() { Name = TxtB_Name.Text, DueDate = DTP_DueDate.Value, ExecutorName = TxTB_Executor.Text, Description = RTB_Description.Text, Location = TxTB_Location.Text };
+                    OnToDoCreated.Invoke(this, new ToDoItemEventArgs(pwTodo));
+                }
+                else
+                {
+                    HomeWork hwTodo = new HomeWork() { Name = TxtB_Name.Text, DueDate = DTP_DueDate.Value, ExecutorName = TxTB_Executor.Text, Description = RTB_Description.Text, Location = TxTB_Location.Text };
+                    OnToDoCreated.Invoke(this, new ToDoItemEventArgs(hwTodo));
                 }
             }
+            else
+            {
+                MessageBox.Show("Type and Name should be filled in");
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (CBB_Type.SelectedItem != null && TxtB_Name.Text != "")
+            {
+                if (Convert.ToString(CBB_Type.SelectedItem) == "Professional work")
+                {
+                    ProfessionalWork pwTodo = new ProfessionalWork() {Name = TxtB_Name.Text, DueDate = DTP_DueDate.Value, ExecutorName = TxTB_Executor.Text, Description = RTB_Description.Text, Location = TxTB_Location.Text };
+                    OnToDoCreated.Invoke(this, new ToDoItemEventArgs(pwTodo));
+                }
+                else
+                {
+                    HomeWork hwTodo = new HomeWork() { Name = TxtB_Name.Text, DueDate = DTP_DueDate.Value, ExecutorName = TxTB_Executor.Text, Description = RTB_Description.Text, Location = TxTB_Location.Text };
+                    OnToDoCreated.Invoke(this, new ToDoItemEventArgs(hwTodo));
+                }
+            }
+            else
+            {
+                MessageBox.Show("Type and Name should be filled in");
+            }
+
+            this.Close();
         }
     }
 }

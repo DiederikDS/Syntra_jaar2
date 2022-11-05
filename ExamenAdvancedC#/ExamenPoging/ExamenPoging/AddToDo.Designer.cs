@@ -41,97 +41,103 @@
             this.Btn_Cancel = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.Btn_Create = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.RTB_Description = new System.Windows.Forms.RichTextBox();
             this.Lbl_Description = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Lbl_Type
             // 
             this.Lbl_Type.AutoSize = true;
-            this.Lbl_Type.Location = new System.Drawing.Point(12, 29);
+            this.Lbl_Type.Location = new System.Drawing.Point(10, 22);
             this.Lbl_Type.Name = "Lbl_Type";
-            this.Lbl_Type.Size = new System.Drawing.Size(43, 20);
+            this.Lbl_Type.Size = new System.Drawing.Size(34, 15);
             this.Lbl_Type.TabIndex = 0;
             this.Lbl_Type.Text = "Type:";
             // 
             // Lbl_Name
             // 
             this.Lbl_Name.AutoSize = true;
-            this.Lbl_Name.Location = new System.Drawing.Point(12, 66);
+            this.Lbl_Name.Location = new System.Drawing.Point(10, 50);
             this.Lbl_Name.Name = "Lbl_Name";
-            this.Lbl_Name.Size = new System.Drawing.Size(52, 20);
+            this.Lbl_Name.Size = new System.Drawing.Size(42, 15);
             this.Lbl_Name.TabIndex = 1;
             this.Lbl_Name.Text = "Name:";
             // 
             // Lbl_Ececutor
             // 
             this.Lbl_Ececutor.AutoSize = true;
-            this.Lbl_Ececutor.Location = new System.Drawing.Point(12, 100);
+            this.Lbl_Ececutor.Location = new System.Drawing.Point(10, 75);
             this.Lbl_Ececutor.Name = "Lbl_Ececutor";
-            this.Lbl_Ececutor.Size = new System.Drawing.Size(69, 20);
+            this.Lbl_Ececutor.Size = new System.Drawing.Size(56, 15);
             this.Lbl_Ececutor.TabIndex = 2;
             this.Lbl_Ececutor.Text = "Executor:";
             // 
             // Lbl_DueDate
             // 
             this.Lbl_DueDate.AutoSize = true;
-            this.Lbl_DueDate.Location = new System.Drawing.Point(12, 135);
+            this.Lbl_DueDate.Location = new System.Drawing.Point(10, 101);
             this.Lbl_DueDate.Name = "Lbl_DueDate";
-            this.Lbl_DueDate.Size = new System.Drawing.Size(75, 20);
+            this.Lbl_DueDate.Size = new System.Drawing.Size(58, 15);
             this.Lbl_DueDate.TabIndex = 3;
             this.Lbl_DueDate.Text = "Due Date:";
             // 
             // Lbl_Location
             // 
             this.Lbl_Location.AutoSize = true;
-            this.Lbl_Location.Location = new System.Drawing.Point(12, 167);
+            this.Lbl_Location.Location = new System.Drawing.Point(10, 125);
             this.Lbl_Location.Name = "Lbl_Location";
-            this.Lbl_Location.Size = new System.Drawing.Size(69, 20);
+            this.Lbl_Location.Size = new System.Drawing.Size(56, 15);
             this.Lbl_Location.TabIndex = 4;
             this.Lbl_Location.Text = "Location:";
             // 
             // CBB_Type
             // 
             this.CBB_Type.FormattingEnabled = true;
-            this.CBB_Type.Location = new System.Drawing.Point(108, 26);
+            this.CBB_Type.Location = new System.Drawing.Point(94, 20);
+            this.CBB_Type.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CBB_Type.Name = "CBB_Type";
-            this.CBB_Type.Size = new System.Drawing.Size(250, 28);
+            this.CBB_Type.Size = new System.Drawing.Size(219, 23);
             this.CBB_Type.TabIndex = 5;
             // 
             // DTP_DueDate
             // 
-            this.DTP_DueDate.Location = new System.Drawing.Point(108, 130);
+            this.DTP_DueDate.Location = new System.Drawing.Point(94, 98);
+            this.DTP_DueDate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.DTP_DueDate.Name = "DTP_DueDate";
-            this.DTP_DueDate.Size = new System.Drawing.Size(250, 27);
+            this.DTP_DueDate.Size = new System.Drawing.Size(219, 23);
             this.DTP_DueDate.TabIndex = 6;
             // 
             // TxtB_Name
             // 
-            this.TxtB_Name.Location = new System.Drawing.Point(108, 63);
+            this.TxtB_Name.Location = new System.Drawing.Point(94, 47);
+            this.TxtB_Name.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.TxtB_Name.Name = "TxtB_Name";
-            this.TxtB_Name.Size = new System.Drawing.Size(250, 27);
+            this.TxtB_Name.Size = new System.Drawing.Size(219, 23);
             this.TxtB_Name.TabIndex = 7;
             // 
             // TxTB_Executor
             // 
-            this.TxTB_Executor.Location = new System.Drawing.Point(108, 97);
+            this.TxTB_Executor.Location = new System.Drawing.Point(94, 73);
+            this.TxTB_Executor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.TxTB_Executor.Name = "TxTB_Executor";
-            this.TxTB_Executor.Size = new System.Drawing.Size(250, 27);
+            this.TxTB_Executor.Size = new System.Drawing.Size(219, 23);
             this.TxTB_Executor.TabIndex = 8;
             // 
             // TxTB_Location
             // 
-            this.TxTB_Location.Location = new System.Drawing.Point(108, 163);
+            this.TxTB_Location.Location = new System.Drawing.Point(94, 122);
+            this.TxTB_Location.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.TxTB_Location.Name = "TxTB_Location";
-            this.TxTB_Location.Size = new System.Drawing.Size(250, 27);
+            this.TxTB_Location.Size = new System.Drawing.Size(219, 23);
             this.TxTB_Location.TabIndex = 9;
             // 
             // Btn_Cancel
             // 
-            this.Btn_Cancel.Location = new System.Drawing.Point(12, 208);
+            this.Btn_Cancel.Location = new System.Drawing.Point(10, 156);
+            this.Btn_Cancel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_Cancel.Name = "Btn_Cancel";
             this.Btn_Cancel.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Btn_Cancel.Size = new System.Drawing.Size(150, 29);
+            this.Btn_Cancel.Size = new System.Drawing.Size(131, 22);
             this.Btn_Cancel.TabIndex = 10;
             this.Btn_Cancel.Text = "Cancel";
             this.Btn_Cancel.UseVisualStyleBackColor = true;
@@ -139,47 +145,51 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(375, 208);
+            this.button1.Location = new System.Drawing.Point(328, 156);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(150, 29);
+            this.button1.Size = new System.Drawing.Size(131, 22);
             this.button1.TabIndex = 11;
             this.button1.Text = "Create and close";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Btn_Create
             // 
-            this.Btn_Create.Location = new System.Drawing.Point(543, 208);
+            this.Btn_Create.Location = new System.Drawing.Point(475, 156);
+            this.Btn_Create.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_Create.Name = "Btn_Create";
-            this.Btn_Create.Size = new System.Drawing.Size(150, 29);
+            this.Btn_Create.Size = new System.Drawing.Size(131, 22);
             this.Btn_Create.TabIndex = 12;
             this.Btn_Create.Text = "Create";
             this.Btn_Create.UseVisualStyleBackColor = true;
             this.Btn_Create.Click += new System.EventHandler(this.Btn_Create_Click);
             // 
-            // richTextBox1
+            // RTB_Description
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(375, 52);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(318, 138);
-            this.richTextBox1.TabIndex = 13;
-            this.richTextBox1.Text = "";
+            this.RTB_Description.Location = new System.Drawing.Point(328, 39);
+            this.RTB_Description.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.RTB_Description.Name = "RTB_Description";
+            this.RTB_Description.Size = new System.Drawing.Size(279, 104);
+            this.RTB_Description.TabIndex = 13;
+            this.RTB_Description.Text = "";
             // 
             // Lbl_Description
             // 
             this.Lbl_Description.AutoSize = true;
-            this.Lbl_Description.Location = new System.Drawing.Point(375, 29);
+            this.Lbl_Description.Location = new System.Drawing.Point(328, 22);
             this.Lbl_Description.Name = "Lbl_Description";
-            this.Lbl_Description.Size = new System.Drawing.Size(88, 20);
+            this.Lbl_Description.Size = new System.Drawing.Size(70, 15);
             this.Lbl_Description.TabIndex = 14;
             this.Lbl_Description.Text = "Description:";
             // 
             // AddToDo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(708, 252);
+            this.ClientSize = new System.Drawing.Size(620, 189);
             this.Controls.Add(this.Lbl_Description);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.RTB_Description);
             this.Controls.Add(this.Btn_Create);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Btn_Cancel);
@@ -193,6 +203,7 @@
             this.Controls.Add(this.Lbl_Ececutor);
             this.Controls.Add(this.Lbl_Name);
             this.Controls.Add(this.Lbl_Type);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "AddToDo";
             this.Text = "AddToDo";
             this.ResumeLayout(false);
@@ -215,7 +226,7 @@
         private Button Btn_Cancel;
         private Button button1;
         private Button Btn_Create;
-        private RichTextBox richTextBox1;
+        private RichTextBox RTB_Description;
         private Label Lbl_Description;
     }
 }

@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace ExamenPoging
 {
-    internal abstract class ToDo<T> where T : ProfessionalWork 
+    public abstract class ToDo 
     {
-        public ToDo(string name, DateTime duedate)
+        public ToDo()
         {
-            Name = name;
-            DueDate = duedate;
+            
         }
         
         public string Name { get; set; }
@@ -20,6 +19,12 @@ namespace ExamenPoging
         public string ExecutorName { get; set; }
         public string Location { get; set; }
         public DateTime DateExecuted { get; set; }
+        public bool IsFinished { get; set; }
+
+        public override string ToString()
+        {
+            return $"{Name} - by {ExecutorName} - due {DueDate}";
+        }
 
 
 

@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace ExamenPoging
 {
-    internal class HomeWork : ToDo
+    public class ToDoItemEventArgs : EventArgs
     {
-        public HomeWork()
+        public ToDo todo { get; set; }
+
+        public ToDoItemEventArgs(ToDo item)
         {
-
+            todo = item;
         }
-
     }
 }
