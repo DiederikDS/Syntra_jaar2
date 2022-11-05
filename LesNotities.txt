@@ -1,0 +1,50 @@
+
+Connection dmv een connectionstring(zie website: connectionstring.com). Beter om asyncroon te connecteren en Nonqueries en queries uit te voeren. 
+
+-Open Connection(with connection string)
+-ExecuteNonQuery: INSERT UPDATE DELETE (enkel via puur sql, niet via linq)
+-ExecuteQuery: SELECT (enkel via puur sql, niet via linq)
+-Close Connection
+
+Transactions:
+Via INSERT, UPDATE, COMMIT logica gaan we pas data aanpassen wanneer de COMMIT gebeurd is.
+De aanpassingen worden gecached.
+Belangrijk wanneer we met geld,... werken, zo kunnen we ook een ROLLBACK doen ipv een COMMIT om de veranderingen niet door te voeren wanneer er een command mislukt.
+
+Patronen: "head first design patterns" (boek)
+link voor meer info rond design patterns: https://www.dofactory.com/net/design-patterns
+
+PatternList:
+	Command
+	Singleton
+	Repository
+	facade
+
+Singleton design creert een classe die slechts 1 keer geinstantieerd kan worden, waardoor je altijd op hetzelfde object werkt.
+	Wordt vaak gebruikt bij het aanmaken van een stream naar bestanden/databases in combinatie met een buffer (array) zodat alle data door dezelfde stream weggeschreven wordt.
+	Dit is nodig zodat je niet van meerdere threads dezelfde stream gaat gebruiken, kan in gebruik zijn door een andere thread en dan krijg je een error.
+
+Repository pattern definieert de CRUD operations voor elke tabel (model). Dit zorgt ervoor dat je onafhankelijk van je database, je crud operaties kan uitvoeren.(voor unit tests kan je dan dus gewoon mockdata koppellen zonder problemen).
+Entity framework is een voorbeeld van een repository, echter je kan ook een repository op een repository hebben. Zo kan je een repository hebben die je CRUD operaties uitvoert ongeacht je ADO of EntityFramework gebruikt.
+Repositories maken gebruik van interfaces om deze standaard contracten door te voeren. Maakt het gemakkelijk om te veranderen van database, tradeoff tegen complixiteit en tijd. Repository wordt aangesproken door de logic om CRUD commandos uit te voeren.
+
+Database connection: voor-geinstalleerde is niet bruikbaar in productie environement. Installeer SQL Server Express, in SSMS klik connect > Database engine > HostName\SQLExpress. Gebruik Windows authenticatie.
+
+Oefening ADO.net:
+In ExecuteSQL(string sql) verwijderen we de _connection = new SqlConnection(ConnectionString);, 
+DBMSSQL class is de data access layer.
+We maken een nieuwe Classe: Repo_Test_ADO -> verzameling voor data access logic voor de Tbl_test table.
+We maken enkele methodes aan om data te verkrijgen uit de table.
+In de Connect methode voegen ze logica toe om te kijken of de connection state wel degelijk open is.
+We maken een enum om enkel de connectie statussen weer te geven die we willen gebruiken.
+We maken een methode om de status van de database op te vragen gebaseerd op de enum. Dit is een voorbeeld van een facade, we tonene enkel wat we willen/Kunnen gebuiken.
+Voeg de logica om te controleren of de database connectie geslaagd is toe in de methodes in de repo.
+We maken een IRepositoryTest.cs interface.
+Laat Repo_Tbltest erven van de IRepositoryTest
+Voeg de reeds geimplementeerde methodes toe in IRepositoryTest.
+Maak een nieuwe Repositry Repo_Tbltest_EF, laat ook deze erven van IRepositoryTest.
+Implementeer de methodes in IRepositoryTest in Repo_Tbltest_EF.(Voeg de EntityFrameWork NuGet packages toe).
+Voeg het model van de table toe, zodat Entity Framework hier mee kan werken.
+Connection string blijft hetzelfde ongeacht of je met ADO of met EntityFrameWork werkt, je connecteerd naar dezelfde database op dezelfde server.
+
+
