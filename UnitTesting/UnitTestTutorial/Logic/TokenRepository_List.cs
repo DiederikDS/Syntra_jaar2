@@ -18,6 +18,16 @@ namespace Logic.Data
             Door door1 = new Door(1);
             Door door2 = new Door(24);
             Door door3 = new Door(54);
+
+            CreateToken("B59D", true);
+            GetToken("B59D").AddDoor(door3);
+            CreateToken("5789", true);
+            GetToken("5789").AddDoor(door2);
+            GetToken("5789").AddDoor(door3);
+            CreateToken("ABCD", false);
+            GetToken("ABCD").AddDoor(door1);
+            GetToken("ABCD").AddDoor(door2);
+            CreateToken("0", false);
         }
 
         public void CreateToken(string tokenID, bool isActive)
@@ -35,7 +45,15 @@ namespace Logic.Data
 
         public Token GetToken(string tokenID)
         {
-            return _tokens.FirstOrDefault(t => t.TokenId == tokenID);
+            foreach(Token token in _tokens)
+            {
+                if(token.TokenId == tokenID)
+                {
+                    return token;
+                }
+            }
+            
+            return _tokens.FirstOrDefault(t => t.TokenId == "0");
         }
     }
 }

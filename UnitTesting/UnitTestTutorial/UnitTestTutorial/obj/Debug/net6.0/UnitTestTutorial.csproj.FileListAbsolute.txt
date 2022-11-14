@@ -3,3 +3,13 @@ C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\UnitTesting\UnitTestTutorial\Uni
 C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\UnitTesting\UnitTestTutorial\UnitTestTutorial\obj\Debug\net6.0\UnitTestTutorial.AssemblyInfoInputs.cache
 C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\UnitTesting\UnitTestTutorial\UnitTestTutorial\obj\Debug\net6.0\UnitTestTutorial.AssemblyInfo.cs
 C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\UnitTesting\UnitTestTutorial\UnitTestTutorial\obj\Debug\net6.0\UnitTestTutorial.csproj.CoreCompileInputs.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\UnitTesting\UnitTestTutorial\UnitTestTutorial\bin\Debug\net6.0\UnitTestTutorial.exe
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\UnitTesting\UnitTestTutorial\UnitTestTutorial\bin\Debug\net6.0\UnitTestTutorial.deps.json
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\UnitTesting\UnitTestTutorial\UnitTestTutorial\bin\Debug\net6.0\UnitTestTutorial.runtimeconfig.json
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\UnitTesting\UnitTestTutorial\UnitTestTutorial\bin\Debug\net6.0\UnitTestTutorial.dll
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\UnitTesting\UnitTestTutorial\UnitTestTutorial\bin\Debug\net6.0\UnitTestTutorial.pdb
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\UnitTesting\UnitTestTutorial\UnitTestTutorial\obj\Debug\net6.0\UnitTestTutorial.dll
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\UnitTesting\UnitTestTutorial\UnitTestTutorial\obj\Debug\net6.0\refint\UnitTestTutorial.dll
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\UnitTesting\UnitTestTutorial\UnitTestTutorial\obj\Debug\net6.0\UnitTestTutorial.pdb
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\UnitTesting\UnitTestTutorial\UnitTestTutorial\obj\Debug\net6.0\UnitTestTutorial.genruntimeconfig.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\UnitTesting\UnitTestTutorial\UnitTestTutorial\obj\Debug\net6.0\ref\UnitTestTutorial.dll

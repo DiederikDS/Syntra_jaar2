@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Logic.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,5 +14,6 @@ namespace Logic
 
         public void DeleteToken(string tokenID);
         public Token GetToken(string tokenID);
+
     }
 }

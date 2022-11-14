@@ -13,5 +13,10 @@ namespace UnitTestTutorial.Data
         public List<Door> Doors { get; set; }
 
         public bool IsActive { get; set; }
+
+        public void AddDoor(Door door)
+        {
+            Doors.Add(door);
+        }
     }
 }

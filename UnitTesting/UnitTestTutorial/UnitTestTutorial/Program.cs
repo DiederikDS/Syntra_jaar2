@@ -1,19 +1,15 @@
-﻿bool running = true;
+﻿bool IsRunning = true;
 
-while (running)
+while(IsRunning == true)
 {
-    string TokenId = null;
-    int DeurId = 0;
+    Console.WriteLine("Enter the TokenID");
+    string TokenId = Console.ReadLine();
+    Console.WriteLine("Enter the DoorID");
+    int DoorId = Convert.ToInt32(Console.ReadLine());
 
-    Console.WriteLine("Wat is uw TokenID?");
-    TokenId = Console.ReadLine();
-    Console.WriteLine("Wat is de id van de deur die u wilt openen?");
-    DeurId = Convert.ToInt32( Console.ReadLine());
+    Logic.Validator.HasAccess(TokenId, DoorId);
 
-    switch (TokenId)
-    {
-        default:
-            break;
-    }
 
 }
+
+//To Do: Fix input for the HasAccess method.
