@@ -1,0 +1,5 @@
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\UnitTesting\UnitTestTutorial\UnitTestTutorial\obj\Debug\net6.0\UnitTestTutorial.csproj.AssemblyReference.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\UnitTesting\UnitTestTutorial\UnitTestTutorial\obj\Debug\net6.0\UnitTestTutorial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\UnitTesting\UnitTestTutorial\UnitTestTutorial\obj\Debug\net6.0\UnitTestTutorial.AssemblyInfoInputs.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\UnitTesting\UnitTestTutorial\UnitTestTutorial\obj\Debug\net6.0\UnitTestTutorial.AssemblyInfo.cs
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\UnitTesting\UnitTestTutorial\UnitTestTutorial\obj\Debug\net6.0\UnitTestTutorial.csproj.CoreCompileInputs.cache
