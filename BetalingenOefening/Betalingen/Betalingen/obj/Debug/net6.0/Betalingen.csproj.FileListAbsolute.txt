@@ -1,0 +1,12 @@
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\BetalingenOefening\Betalingen\Betalingen\bin\Debug\net6.0\Betalingen.deps.json
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\BetalingenOefening\Betalingen\Betalingen\bin\Debug\net6.0\Betalingen.dll
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\BetalingenOefening\Betalingen\Betalingen\bin\Debug\net6.0\Betalingen.pdb
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\BetalingenOefening\Betalingen\Betalingen\obj\Debug\net6.0\Betalingen.csproj.AssemblyReference.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\BetalingenOefening\Betalingen\Betalingen\obj\Debug\net6.0\Betalingen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\BetalingenOefening\Betalingen\Betalingen\obj\Debug\net6.0\Betalingen.AssemblyInfoInputs.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\BetalingenOefening\Betalingen\Betalingen\obj\Debug\net6.0\Betalingen.AssemblyInfo.cs
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\BetalingenOefening\Betalingen\Betalingen\obj\Debug\net6.0\Betalingen.csproj.CoreCompileInputs.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\BetalingenOefening\Betalingen\Betalingen\obj\Debug\net6.0\Betalingen.dll
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\BetalingenOefening\Betalingen\Betalingen\obj\Debug\net6.0\refint\Betalingen.dll
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\BetalingenOefening\Betalingen\Betalingen\obj\Debug\net6.0\Betalingen.pdb
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\BetalingenOefening\Betalingen\Betalingen\obj\Debug\net6.0\ref\Betalingen.dll

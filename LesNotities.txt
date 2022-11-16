@@ -47,4 +47,33 @@ Implementeer de methodes in IRepositoryTest in Repo_Tbltest_EF.(Voeg de EntityFr
 Voeg het model van de table toe, zodat Entity Framework hier mee kan werken.
 Connection string blijft hetzelfde ongeacht of je met ADO of met EntityFrameWork werkt, je connecteerd naar dezelfde database op dezelfde server.
 
+app -- interface repo -- repo database
+		      -- repo xml
+                      -- ...
+
+CI/CD:
+Continuous integration/ continuous delivery
+
+Azure devops:
+per feature een branch
+Top/organization settings/users/select  users/manage/change access level/to basic
+
+Unit test:
+1 maak een project
+2 maak een testproject MSTest test project
+3 maak een klasse en voeg "test" toe aan de klasse naam zodat die overeen komt de naam van de klasse die je wil testen uit het originele project.
+4 voeg de [TestClass] attribute toe voor de test klasse en voeg de [TestMethode] attribute toe voor de test methode
+
+Yaml script voor pipline:
+trigger
+pool: definieert de virual machine
+variables: varaibelen die gebruikt worden in het script
+steps: defineert verschillende settings dmlv tasks
+
+DevOps: samenwerking tussen developements en operations (creation en deployement)
+
+converteren naar Hexadecimaal: ToString("X2")
+
+//Oefening:
+doe de bankrekening oefenening maar gebruik een test repository om een test database aan te spreken om de unit test van gekende waarden te voorzien zo kan je testen of het saldo op de rekening wel degelijk het correcte saldo is in de code.
 

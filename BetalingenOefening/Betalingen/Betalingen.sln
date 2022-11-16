@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Betalingen", "Betalingen\Betalingen.csproj", "{766208A4-5063-4499-88A4-544DDEF6EC5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetalingenTests", "BetalingenTests\BetalingenTests.csproj", "{F17AE4DE-3B0D-4F2D-B909-1B81052CC0F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{766208A4-5063-4499-88A4-544DDEF6EC5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{766208A4-5063-4499-88A4-544DDEF6EC5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{766208A4-5063-4499-88A4-544DDEF6EC5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{766208A4-5063-4499-88A4-544DDEF6EC5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F17AE4DE-3B0D-4F2D-B909-1B81052CC0F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17AE4DE-3B0D-4F2D-B909-1B81052CC0F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17AE4DE-3B0D-4F2D-B909-1B81052CC0F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17AE4DE-3B0D-4F2D-B909-1B81052CC0F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8511AEB-8DCA-478B-9149-944CF052D339}
+	EndGlobalSection
+EndGlobal
