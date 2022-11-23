@@ -1,0 +1,15 @@
+.mijnclasse {
+    color : green;
+}
+
+p {
+    color : red;
+}
+
+#id558 {
+    color : blue;
+}
+
+p.mijnclasse {
+    color : brown;
+}
