@@ -86,15 +86,18 @@ Views zitten per controller in mapjes met naam controller - "Controller".
 MVC werkt exclusief met Razor pages : de @{} syntax (je kan ook @model.naam inline gebruiken), .cshtml
 mijnsite.be\Dier\Details\id=5 = sitenaam\Controller\action method\parameter
 view aanmaken door in de controller rechts op de naam van de action te klikken en "Add View" te klikken.
-Services halen data op (kunnen repositories gebruiken) maar er kan ook nog extra logica toegevoegd worden want deze heeft kennis van de web omgeving bv pad van webserver, permissions, ...
-Services moet je nog toevoegen in de container dit gebeurd in de program.cs met de volgende syntax: builder.Services.AddTransient();
+Services halen data op (kunnen repositories gebruiken) maar er kan ook nog extra logica toegevoegd worden want deze heeft kennis van de web omgeving bv pad van webserver, permissions, data uit de wwwroot halen,  ...
+Services moet je nog toevoegen in de container dit gebeurd in de program.cs met de volgende syntax: builder.Services.AddTransient<filenaam>();
 Ook dingen zoals entity framework moet je eerste toevoegen als service in de program.cs
 Je hebt dan ook een map die "Services" heet. 
 Je maakt eerst je repository en dan op basis daarvan de service. Je creeert een extra laag tussen repository en controller zodat je repository uit het project kan gehaald worden enzo weg van de presentation layer kan bestaan.
+De repository bevraagt de database, de data wordt doorgegeven aan de service en die zal het dan doorgeven aan de controller.
+statische bestanden zet je op de wwwroot bv je css, jsondata files ...
+Sommige methodes hebben een aparte voor GET en voor POST, get is voor het laden van de pagina, post is voor het saven van de changes.
 
 HTML:
 link syntax: <a href="">naam</a>
 
 //Oefening:
 doe de bankrekening oefenening maar gebruik een test repository om een test database aan te spreken om de unit test van gekende waarden te voorzien zo kan je testen of het saldo op de rekening wel degelijk het correcte saldo is in de code.
-
+Implementeer een mvc applicatie met database, repository in een andere layer, en een service die deze repository aanspreekt.
