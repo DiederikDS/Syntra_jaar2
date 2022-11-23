@@ -74,6 +74,20 @@ DevOps: samenwerking tussen developements en operations (creation en deployement
 
 converteren naar Hexadecimaal: ToString("X2")
 
+MVC:
+1 controller aanspreken uit de browser
+2 geen specifieke pagina : display index
+3 wel een specifieke pagina : eerst model aanspreken om dan de specifieke view te displayen
+Er bestaat geen link tussen Model en View, View kan model niet direct aanspreken en vice versa
+Controllers moeten eindigen op "Controller".
+Views zitten per controller in mapjes met naam controller - "Controller".
+MVC werkt exclusief met Razor pages : de @{} syntax (je kan ook @model.naam inline gebruiken), .cshtml
+mijnsite.be\Dier\Details\id=5 = sitenaam\Controller\action method\parameter
+view aanmaken door in de controller rechts op de naam van de action te klikken en "Add View" te klikken.
+
+HTML:
+link syntax: <a href="">naam</a>
+
 //Oefening:
 doe de bankrekening oefenening maar gebruik een test repository om een test database aan te spreken om de unit test van gekende waarden te voorzien zo kan je testen of het saldo op de rekening wel degelijk het correcte saldo is in de code.
 

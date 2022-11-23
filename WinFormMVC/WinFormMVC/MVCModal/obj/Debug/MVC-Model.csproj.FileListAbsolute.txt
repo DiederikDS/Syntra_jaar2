@@ -1,0 +1,12 @@
+C:\Users\kbecu\Desktop\MVCwithWimForms_src\WinFormMVC\MVCModal\bin\Debug\MVCModal.dll
+C:\Users\kbecu\Desktop\MVCwithWimForms_src\WinFormMVC\MVCModal\bin\Debug\MVCModal.pdb
+C:\Users\kbecu\Desktop\MVCwithWimForms_src\WinFormMVC\MVCModal\obj\Debug\MVC-Model.csproj.AssemblyReference.cache
+C:\Users\kbecu\Desktop\MVCwithWimForms_src\WinFormMVC\MVCModal\obj\Debug\MVC-Model.csproj.CoreCompileInputs.cache
+C:\Users\kbecu\Desktop\MVCwithWimForms_src\WinFormMVC\MVCModal\obj\Debug\MVCModal.dll
+C:\Users\kbecu\Desktop\MVCwithWimForms_src\WinFormMVC\MVCModal\obj\Debug\MVCModal.pdb
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\WinFormMVC\WinFormMVC\MVCModal\bin\Debug\MVCModal.dll
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\WinFormMVC\WinFormMVC\MVCModal\bin\Debug\MVCModal.pdb
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\WinFormMVC\WinFormMVC\MVCModal\obj\Debug\MVC-Model.csproj.AssemblyReference.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\WinFormMVC\WinFormMVC\MVCModal\obj\Debug\MVC-Model.csproj.CoreCompileInputs.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\WinFormMVC\WinFormMVC\MVCModal\obj\Debug\MVCModal.dll
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\WinFormMVC\WinFormMVC\MVCModal\obj\Debug\MVCModal.pdb
