@@ -19,6 +19,8 @@ PatternList:
 	Singleton
 	Repository
 	facade
+	builder
+	factory
 
 Singleton design creert een classe die slechts 1 keer geinstantieerd kan worden, waardoor je altijd op hetzelfde object werkt.
 	Wordt vaak gebruikt bij het aanmaken van een stream naar bestanden/databases in combinatie met een buffer (array) zodat alle data door dezelfde stream weggeschreven wordt.
@@ -84,6 +86,11 @@ Views zitten per controller in mapjes met naam controller - "Controller".
 MVC werkt exclusief met Razor pages : de @{} syntax (je kan ook @model.naam inline gebruiken), .cshtml
 mijnsite.be\Dier\Details\id=5 = sitenaam\Controller\action method\parameter
 view aanmaken door in de controller rechts op de naam van de action te klikken en "Add View" te klikken.
+Services halen data op (kunnen repositories gebruiken) maar er kan ook nog extra logica toegevoegd worden want deze heeft kennis van de web omgeving bv pad van webserver, permissions, ...
+Services moet je nog toevoegen in de container dit gebeurd in de program.cs met de volgende syntax: builder.Services.AddTransient();
+Ook dingen zoals entity framework moet je eerste toevoegen als service in de program.cs
+Je hebt dan ook een map die "Services" heet. 
+Je maakt eerst je repository en dan op basis daarvan de service. Je creeert een extra laag tussen repository en controller zodat je repository uit het project kan gehaald worden enzo weg van de presentation layer kan bestaan.
 
 HTML:
 link syntax: <a href="">naam</a>
