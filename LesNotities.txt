@@ -81,6 +81,7 @@ MVC:
 2 geen specifieke pagina : display index
 3 wel een specifieke pagina : eerst model aanspreken om dan de specifieke view te displayen
 Er bestaat geen link tussen Model en View, View kan model niet direct aanspreken en vice versa
+Ingangspunt is de controller (via de url).
 Controllers moeten eindigen op "Controller".
 Views zitten per controller in mapjes met naam controller - "Controller".
 MVC werkt exclusief met Razor pages : de @{} syntax (je kan ook @model.naam inline gebruiken), .cshtml
@@ -97,6 +98,21 @@ Sommige methodes hebben een aparte voor GET en voor POST, get is voor het laden 
 
 HTML:
 link syntax: <a href="">naam</a>
+
+MVVM:
+Bedoeld voor desktop applicaties.
+observablecollection voor lijsten, callbacks worden automatisch doorgestuurd.
+Geen code behind in de view
+Ingangspunt is de view
+Classes erven van IpropertyChanged
+Buttons erven van ICommand en triggeren een command
+List = ObservableObject
+ViewModels werken de forms bij (kan ook in een 2way direction zijn)
+UnitTest referentie gaat naar de viewmodel
+MVVM kan omgevormd worden naar een WebApplicatie dmv Silverlight. --> end of life want browsers ondersteunen (dit soort plugins) het niet meer door security reasons.
+MVVM kan omgevormd worden naar WinFroms als je de viewmodel naar een (soort van) repository (business logic) omvormd en de methods effectief zal aanroepen in de view.
+Elke Window (view) kan maar 1 datacontext hebben (viewmodel). User controls (een soort van form) kunnen wel een verschillende datacontext hebben. Je kan dan verschillende user controls laden in 1 Window.
+
 
 //Oefening:
 doe de bankrekening oefenening maar gebruik een test repository om een test database aan te spreken om de unit test van gekende waarden te voorzien zo kan je testen of het saldo op de rekening wel degelijk het correcte saldo is in de code.

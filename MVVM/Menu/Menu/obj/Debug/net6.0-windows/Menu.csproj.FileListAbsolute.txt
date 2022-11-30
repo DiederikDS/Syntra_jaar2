@@ -1,0 +1,5 @@
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\MVVM\Menu\Menu\obj\Debug\net6.0-windows\Menu.csproj.AssemblyReference.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\MVVM\Menu\Menu\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\MVVM\Menu\Menu\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\MVVM\Menu\Menu\obj\Debug\net6.0-windows\Menu_MarkupCompile.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\MVVM\Menu\Menu\obj\Debug\net6.0-windows\Menu_MarkupCompile.lref
