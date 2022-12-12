@@ -1,0 +1,12 @@
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\OefeningUnitTesting\OefeningUnitTest\OefeningUnitTest\obj\Debug\net6.0\OefeningUnitTest.csproj.AssemblyReference.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\OefeningUnitTesting\OefeningUnitTest\OefeningUnitTest\obj\Debug\net6.0\OefeningUnitTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\OefeningUnitTesting\OefeningUnitTest\OefeningUnitTest\obj\Debug\net6.0\OefeningUnitTest.AssemblyInfoInputs.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\OefeningUnitTesting\OefeningUnitTest\OefeningUnitTest\obj\Debug\net6.0\OefeningUnitTest.AssemblyInfo.cs
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\OefeningUnitTesting\OefeningUnitTest\OefeningUnitTest\obj\Debug\net6.0\OefeningUnitTest.csproj.CoreCompileInputs.cache
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\OefeningUnitTesting\OefeningUnitTest\OefeningUnitTest\bin\Debug\net6.0\OefeningUnitTest.deps.json
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\OefeningUnitTesting\OefeningUnitTest\OefeningUnitTest\bin\Debug\net6.0\OefeningUnitTest.dll
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\OefeningUnitTesting\OefeningUnitTest\OefeningUnitTest\bin\Debug\net6.0\OefeningUnitTest.pdb
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\OefeningUnitTesting\OefeningUnitTest\OefeningUnitTest\obj\Debug\net6.0\OefeningUnitTest.dll
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\OefeningUnitTesting\OefeningUnitTest\OefeningUnitTest\obj\Debug\net6.0\refint\OefeningUnitTest.dll
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\OefeningUnitTesting\OefeningUnitTest\OefeningUnitTest\obj\Debug\net6.0\OefeningUnitTest.pdb
+C:\Users\diede\OneDrive\Bureaublad\Syntra_jaar2\OefeningUnitTesting\OefeningUnitTest\OefeningUnitTest\obj\Debug\net6.0\ref\OefeningUnitTest.dll

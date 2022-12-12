@@ -1,0 +1,22 @@
+[
+  {
+    "Naam": "Knaagdieren",
+    "Orde": "Knaagdier",
+    "Klasse": "Zoogdier"
+  },
+  {
+    "Naam": "Katachtigen",
+    "Orde": "Roofdier",
+    "Klasse": "Zoogdier"
+  },
+  {
+    "Naam": "Reptielen",
+    "Orde": "Elpistostegalia",
+    "Klasse": "Reptiel"
+  },
+  {
+    "Naam": "Honden",
+    "Orde": "Roofdier",
+    "Klasse": "Zoogdier"
+  }
+]

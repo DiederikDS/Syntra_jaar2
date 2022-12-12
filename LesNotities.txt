@@ -14,21 +14,46 @@ Belangrijk wanneer we met geld,... werken, zo kunnen we ook een ROLLBACK doen ip
 Patronen: "head first design patterns" (boek)
 link voor meer info rond design patterns: https://www.dofactory.com/net/design-patterns
 
-PatternList:
-	Command
-	Singleton
-	Repository
-	facade
-	builder
-	factory
+Soorten design patterns:
+	Creational (abstractie rond het creeren van een object)
+		Factory method
+		Factory abstract
+		Singleton
+	Structural (verzorgt de relaties tussen entiteiten op een eenvoudige manier)
+		Adapter
+		Proxy
+		Composite
+		Decorator
+		Facade
+	Behavioral (wijzen eigenschappen/verantwoordelijkheden toe aan een object)
+		Command
+		Iterator
+		Observer
+		Strategy
+		Template method
+		State
+
+Programmeren tegenover een interface niet tegen een implementatie. 
 
 Singleton design creert een classe die slechts 1 keer geinstantieerd kan worden, waardoor je altijd op hetzelfde object werkt.
-	Wordt vaak gebruikt bij het aanmaken van een stream naar bestanden/databases in combinatie met een buffer (array) zodat alle data door dezelfde stream weggeschreven wordt.
-	Dit is nodig zodat je niet van meerdere threads dezelfde stream gaat gebruiken, kan in gebruik zijn door een andere thread en dan krijg je een error.
+Wordt vaak gebruikt bij het aanmaken van een stream naar bestanden/databases in combinatie met een buffer (array) zodat alle data door dezelfde stream weggeschreven wordt.
+Dit is nodig zodat je niet van meerdere threads dezelfde stream gaat gebruiken, kan in gebruik zijn door een andere thread en dan krijg je een error.
 
 Repository pattern definieert de CRUD operations voor elke tabel (model). Dit zorgt ervoor dat je onafhankelijk van je database, je crud operaties kan uitvoeren.(voor unit tests kan je dan dus gewoon mockdata koppellen zonder problemen).
 Entity framework is een voorbeeld van een repository, echter je kan ook een repository op een repository hebben. Zo kan je een repository hebben die je CRUD operaties uitvoert ongeacht je ADO of EntityFramework gebruikt.
 Repositories maken gebruik van interfaces om deze standaard contracten door te voeren. Maakt het gemakkelijk om te veranderen van database, tradeoff tegen complixiteit en tijd. Repository wordt aangesproken door de logic om CRUD commandos uit te voeren.
+
+Factory pattern wordt gebruikt wanneer gelijke instanties van hetzelfde object op meerdere plaatsen gebruikt worden. Het instantieren van het object wordt in een aparte klasse (de factory) gedaan. 
+Op de plaatsen waar de instantiatie gebeurde wordt nu een "createObjectX" methode aangeroepen ipv het object te instantieren.
+Zo kunnen aanpassingen aan het object op 1 plaats gedaan worden (de factory) ipv op verschillende plaatsen in de code.
+
+Adapter pattern zorgt ervoor dat bepaalde klasses als een andere gebruikt kunnen worden.
+Een adapter object zal een instantie van het initieele object bewaren en erven van het interface van het gewenste object.
+De geervde methodes zullen dan geimplementeerd worden zodat de methodes van het initieel object uitgevoerd worden bij het aanroepen van de methodes van het gewenst object.
+Bv de methode GetAreaRectangel() zal GetAreaTriangle uitvoeren wanneer Rectangle het gewenste object is en Triangle het initieel object is.
+
+Command pattern zorgt ervoor dat een actie en het uitvoeren ervan los staat van waar deze gebruikt wordt. 
+Een butten voert gewoon een execute methode uit zonder te weten wat het doet en op welk ander object het handelt.
 
 Database connection: voor-geinstalleerde is niet bruikbaar in productie environement. Installeer SQL Server Express, in SSMS klik connect > Database engine > HostName\SQLExpress. Gebruik Windows authenticatie.
 
@@ -54,7 +79,21 @@ app -- interface repo -- repo database
                       -- ...
 
 CI/CD:
-Continuous integration/ continuous delivery
+Continuous integration/ continuous delivery of deployment
+Verschil tussen continuous delivery en continuous deployment is de plaats waar de pipeline ophoudt.
+Continuous delivery: het doorzetten van de applicatie naar de verschillende omgevingen gebeurd nog manueel.
+Continuous deployment: het doorzetten van de applicatie naar de verschillende omgevingen gebeurd automatisch.
+In de praktijk vaak deels toegepast.
+Volledige continuous deployment is heel complex en tijdsintensief.
+DevOps: the union of people, process and products to enable continuous delivery of value to end users.
+DevOps: samenwerking tussen developements en operations (creation en deployement)
+DevOps stappen: Plan, code, build, test, release, deploy, operate, monitor.
+Voordelen DevOps:relatief snel qua implementatie, sneller releasen, samenwerking door gedeelde verantwoordelijkheid, kwaliteit is betrouwbaar.
+nadelen DevOps: Niemand heeft nog overzicht over de gehele keten binnen het bedrijf.
+Deployment strategies:
+	Blue - Green (Red - Black): Nieuwe versie komt naast de oude versie online, eenmaal alle data overgezet is gaat de oude offline en alle trafiek gaat direct naar de nieuwe.
+	Canary deployment: Niewe versie komt online, traffiek wordt gelijdelijk aan naar de nieuwe overgezet.
+	Recreate: Oude versie wordt gestopt en vervangen door de nieuwe.
 
 Azure devops:
 per feature een branch
@@ -65,14 +104,16 @@ Unit test:
 2 maak een testproject MSTest test project
 3 maak een klasse en voeg "test" toe aan de klasse naam zodat die overeen komt de naam van de klasse die je wil testen uit het originele project.
 4 voeg de [TestClass] attribute toe voor de test klasse en voeg de [TestMethode] attribute toe voor de test methode
+Afrondingsfout voorkomen door het resultaat (de float of double) maal 100 te doen maw de 2 eerste getallen na de komma ervoor zetten,
+dan te converteren naar een integer en plus 0,1 doen zodat de komma en alles erna wegvalt en de afrondingssprong naar boven gedaan wordt,
+en dan terug te delen door 100.
+In de database gebruiken we vaak integers om geld voor te stellen. We werken dan in units van centen 
 
 Yaml script voor pipline:
 trigger
 pool: definieert de virual machine
 variables: varaibelen die gebruikt worden in het script
 steps: defineert verschillende settings dmlv tasks
-
-DevOps: samenwerking tussen developements en operations (creation en deployement)
 
 converteren naar Hexadecimaal: ToString("X2")
 
@@ -83,6 +124,7 @@ MVC:
 Er bestaat geen link tussen Model en View, View kan model niet direct aanspreken en vice versa
 Ingangspunt is de controller (via de url).
 Controllers moeten eindigen op "Controller".
+Bevind zich in de presentation tier.
 Views zitten per controller in mapjes met naam controller - "Controller".
 MVC werkt exclusief met Razor pages : de @{} syntax (je kan ook @model.naam inline gebruiken), .cshtml
 mijnsite.be\Dier\Details\id=5 = sitenaam\Controller\action method\parameter
@@ -101,11 +143,14 @@ link syntax: <a href="">naam</a>
 
 MVVM:
 Bedoeld voor desktop applicaties.
+Wordt niet veel gebruikt door de complexiteit -> veel tijd nodig bij developement.
+Is zeer geschikt voor dashboards waar sensoren constant uitgelezen worden. De databinding zorgt voor een automatische update van de waarden.
 observablecollection voor lijsten, callbacks worden automatisch doorgestuurd.
 Geen code behind in de view
 Ingangspunt is de view
 Classes erven van IpropertyChanged
 Buttons erven van ICommand en triggeren een command
+Commands worden gebruikt om een actie uit te voeren.
 List = ObservableObject
 ViewModels werken de forms bij (kan ook in een 2way direction zijn)
 UnitTest referentie gaat naar de viewmodel
@@ -113,7 +158,32 @@ MVVM kan omgevormd worden naar een WebApplicatie dmv Silverlight. --> end of lif
 MVVM kan omgevormd worden naar WinFroms als je de viewmodel naar een (soort van) repository (business logic) omvormd en de methods effectief zal aanroepen in de view.
 Elke Window (view) kan maar 1 datacontext hebben (viewmodel). User controls (een soort van form) kunnen wel een verschillende datacontext hebben. Je kan dan verschillende user controls laden in 1 Window.
 
+Maui:
+Nieuw in .net7
+Is veelbelovend want is direct multiplatform.
+Zowel voor desktop en mobile.
+Geen grafische designer aanwezig.
+Heeft build-in support voor het voorlezen van de software
 
-//Oefening:
-doe de bankrekening oefenening maar gebruik een test repository om een test database aan te spreken om de unit test van gekende waarden te voorzien zo kan je testen of het saldo op de rekening wel degelijk het correcte saldo is in de code.
-Implementeer een mvc applicatie met database, repository in een andere layer, en een service die deze repository aanspreekt.
+ASP.NET MVC:
+
+examen herhaling: 
+	day of week geeft respectievelijk voor maandag 1, dinsdag 2, woensdag 3, ...
+
+Intro MVC:
+	De controller zal eerst de view helemaal converteren naar html (Alle "@" worden geresolved).
+	Alle logica in de view kan niet hergebruikt worden -> zoveel mogelijk logica in de controller steken.
+	query string: alles achter het vraagteken in de url. -> beperking: kan geen objecten meekrijgen
+	ViewData (dictionary) en ViewBag (dynamic) = methode om gegevens door te sturen van de controller naar de view.
+	Dynamic: object waar properties on the fly toegevoed kunnen worden.	
+	Data in ViewData/ViewBag is tijdelijk, de data gaat verloren na het gebruikt is voor het opbouwen van de view, achterliggend gebruiken ze dezelfde dictionary.
+	TempData is gelijkaardig aan ViezwData dus ook een dictionary.
+	Session variables: bijhouden van data voor een langer periode (dan ViewData, ViewBag, TempData)
+		Werkt per gebruiker (per sessie) -> andere browser, computer = nieuwe sessie.
+		bv wanneer een user 15min krijgt om een boeking af te werken kun je de starttijd in een sessie variabele opslaan.
+		Om dit te kunnen gebruiken moet je een "AddDistributedMemoryCache();" service toevoegen in de program.cs
+		
+	
+
+	
+
