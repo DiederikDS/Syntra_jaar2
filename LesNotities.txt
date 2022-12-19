@@ -177,13 +177,49 @@ Intro MVC:
 	ViewData (dictionary) en ViewBag (dynamic) = methode om gegevens door te sturen van de controller naar de view.
 	Dynamic: object waar properties on the fly toegevoed kunnen worden.	
 	Data in ViewData/ViewBag is tijdelijk, de data gaat verloren na het gebruikt is voor het opbouwen van de view, achterliggend gebruiken ze dezelfde dictionary.
-	TempData is gelijkaardig aan ViezwData dus ook een dictionary.
+	TempData is gelijkaardig aan ViewData dus ook een dictionary.
 	Session variables: bijhouden van data voor een langer periode (dan ViewData, ViewBag, TempData)
 		Werkt per gebruiker (per sessie) -> andere browser, computer = nieuwe sessie.
 		bv wanneer een user 15min krijgt om een boeking af te werken kun je de starttijd in een sessie variabele opslaan.
 		Om dit te kunnen gebruiken moet je een "AddDistributedMemoryCache();" service toevoegen in de program.cs
-		
+
+Data annotations
+	Zorgt ervoor dat modellen op een vaste manier vast gelegd kunnen worden.
+	Deze moeten overeen komen met de restricties van je database -> als je database een waarde van maximum van 50 char voor een veld verwacht mag je daar niet over gaan in de software.
+	Maken gebruikt van een attribute.
+	Om deze in de view te zien moet je <span asp-validation-for="Benaming" class="text-danger"></span> toevoegen.
+	Validatie van de attributes gebeurd aan de kant van de client door een jquery script die meegeladen wordt in de view:
+		@section Scripts {
+    			@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+		}
+	de "asp-validation-summary" class kan je gebruiken om dat te beheren in de view.
+	Dit is client based validatie dus niet veilig.
+	Validatie serverside doen we in de controller via een try catch.
+	dmv ModelState.IsValid kan je een check doen of de ingegeven velden voldoen aan je requirements (data annotations).
+	dmv van ModelState.AddModeError(string key, string errormessage) kan je zelf errors toevoegen.
+	In de view gebruik je hidden inputs zodat je properties die je nodig hebt om een object te maken, maar die de user niet moet ingeven kan gebruiken (bv id).
 	
+Dependency injection:
+	mvc heeft een standaard ingebouwde versie.
+	3 soorten
+		Transient objects: altijd een nieuwe instantie
+		Scorped objects: objects zijn hetzelfde in dezelfde request
+		Singleton objects: altijd hetzelfde object
+	Deze worden geinjecteerd in de controller.
+	In programm.cs voegen we deze dependency injections toe.
+	Voordelen:
+		Controller is zelf niet meer afhankelijk om instanties te maken.
+		Code is herbruikbaarder
+		Logica is losgekoppeld
+	Alle objecten die als service gedefineerd zijn, kunnen automatisch aangemaakt worden zonder ze expliciet te instantieren.
+
+Entity Framework in MVC
+	Maak een nieuwe context class afgeleid van DBContext
+		deze bevat een constructor die options als argument naar de base implementatie doorgeeft en de DbSet<> properties
+	Maak een database connection in program.cs
+		via configbuilder lezen we de connectionstring uit de appsettings.json file
+	In de program.cs voegen we onze afgeleide DBContext toe als een service met als option de configbuilder.
+	heeft 3 NuGet packages nodig: ef core, ef voor de specifieke database (sqlserver), en ef tools (voor de console commands ef)
 
 	
 
