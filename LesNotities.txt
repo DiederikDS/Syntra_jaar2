@@ -219,7 +219,9 @@ Entity Framework in MVC
 	Maak een database connection in program.cs
 		via configbuilder lezen we de connectionstring uit de appsettings.json file
 	In de program.cs voegen we onze afgeleide DBContext toe als een service met als option de configbuilder.
+	Zo kunnen we de afgeleide class injecteren als service in onze repositories.
 	heeft 3 NuGet packages nodig: ef core, ef voor de specifieke database (sqlserver), en ef tools (voor de console commands ef)
-
+	DBContext.savechanges gaat de veranderingen doorvoeren naar de database.
+	Je kan ook met een transaction werken door je changes tussen context.Database.BeginTransaction() en context.Database.CommitTransaction().
 	
 
