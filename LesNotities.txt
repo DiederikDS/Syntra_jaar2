@@ -223,5 +223,6 @@ Entity Framework in MVC
 	heeft 3 NuGet packages nodig: ef core, ef voor de specifieke database (sqlserver), en ef tools (voor de console commands ef)
 	DBContext.savechanges gaat de veranderingen doorvoeren naar de database.
 	Je kan ook met een transaction werken door je changes tussen context.Database.BeginTransaction() en context.Database.CommitTransaction().
+	Kolommen en tabel namen worden overgenomen uit de dbset's en de namen in de models, je kan dit veranderen door een attribute toe te voegen in de models die de naam in database definieert.
 	
 
