@@ -225,4 +225,21 @@ Entity Framework in MVC
 	Je kan ook met een transaction werken door je changes tussen context.Database.BeginTransaction() en context.Database.CommitTransaction().
 	Kolommen en tabel namen worden overgenomen uit de dbset's en de namen in de models, je kan dit veranderen door een attribute toe te voegen in de models die de naam in database definieert.
 	
+Javascript in MVC
+	Gebruiken om validatie aan de kant van de client te doen.
+	Zo moet de gebruiker niet eerst zn volledige model doorsturen, je controleert meteen wanneer de gebruiker een iets geinput heeft.
+	Je kan velden, grafieken, ... inladen via javascript zonder dat je je hele pagina moet herladen.
+	undefined is de javascript versie van null.
+	Defineer een methode in je controller die een JsonResult als return type verwacht. Deze kan dan gebruikt worden in je view.
+	In de view voeg je een onchange="checkLegCount(event)" deze verwijst naar een functie die gedefinieert moet worden in je javascript file.
+	In de javascript gebruik je function checkLegCount(event){$.ajax({
+										<ajax info>
+										type: "GET"
+										url: "/Controller/Methode?Parameter=" + event.target.value
+										success: function(result){}
+										error:
+									}}
+	Je javascript is per definitie async, dit wil zeggen dat code niet wacht op het vorige blok. Wanneer je een waarde aanroept die je in een vorige blok ook gebruikt dan gebruik je best een await zodat je zeker de juist waarde hebt.
 
+WebDev
+	Check Syncfusion communitylicense!
